@@ -106,7 +106,9 @@ v, ok := m["z"]
 ```
 ## Interfaces
 
-Interfaces can be used *without* needing to declare that your class implements an interface. Go is smart enough to see that your class conforms to the interface and figures that out for you. Let this sink in for a bit and you'll see how genius it is. If my brief description wasn't enough for you, read this [post on the Go blog](http://golangtutorials.blogspot.com/2011/06/interfaces-in-go.html) for more details.
+Interfaces can be used *without* needing to declare that your ~~class~~ type implements an interface. Go is smart enough to see that your ~~class~~ type conforms to the interface and figures that out for you. Let this sink in for a bit and you'll see how genius it is. If my brief description wasn't enough for you, read this [post on the Go blog](http://golangtutorials.blogspot.com/2011/06/interfaces-in-go.html) for more details.
+
+Edit: As @elimisteve points out in the comments, Go doesn't have classes. Changing `class` to `type` to be more accurate. Thanks!
 
 ## Concurrency
 
