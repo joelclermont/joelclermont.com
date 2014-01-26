@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | cogent free knowledge]]></title>
+  <link href="http://www.joelclermont.com/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://www.joelclermont.com/"/>
+  <updated>2014-01-26T16:43:12+00:00</updated>
+  <id>http://www.joelclermont.com/</id>
+  <author>
+    <name><![CDATA[Joel Clermont]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Highlight PHP and HTML in Octopress]]></title>
+    <link href="http://www.joelclermont.com/2013/03/29/highlight-php-and-html-in-octopress/"/>
+    <updated>2013-03-29T19:46:00+00:00</updated>
+    <id>http://www.joelclermont.com/2013/03/29/highlight-php-and-html-in-octopress</id>
+    <content type="html"><![CDATA[<p>In <a href="http://www.joelclermont.com/2013/03/28/better-php-highlighting-in-octopress/">yesterday's post on Octopress</a>, I briefly mentioned the Pygments lexer documentation. One of the things I found incredibly useful was understanding all the available lexers and which language code would invoke them.</p>
+
+<p>For example, let's say you want to have a code block that highlights both PHP and HTML. How would you do this?</p>
+
+<!-- more -->
+
+
+<p>If you simply use the <code>php</code> language token in your code block, you will get something like this:</p>
+
+<p>``` php
+&lt;?php $links = $this->getNav(); ?></p>
+
+<ul id="navigation">
+    <?php foreach ($links as $l): ?>
+        <li><a href="<?php echo $l->href; ?>"><?php $l->caption; ?></a></li>
+    <?php endforeach; ?>
+</ul>
+
+
+<p>```</p>
+
+<p>Notice how the HTML is not higlighted, but the PHP is. If you used the <code>html</code> language token, you would get the reverse problem. But, if you search the <a href="http://pygments.org/docs/lexers/">Pygments lexer documentation</a>, you will find the <code>HtmlPhpLexer</code>. It first attempts to highlight all the PHP code, and then passes the remaining text to the <code>HtmlLexer</code>. (Side note: the <code>HtmlLexer</code> also parses CSS and Javascript). And since we're reading the docs, there is no need to guess as to which language token will invoke this parser. It specifies the short name as <code>html+php</code>.</p>
+
+<p>``` html+php
+&lt;?php $links = $this->getNav(); ?></p>
+
+<ul id="navigation">
+    <?php foreach ($links as $l): ?>
+        <li><a href="<?php echo $l->href; ?>"><?php $l->caption; ?></a></li>
+    <?php endforeach; ?>
+</ul>
+
+
+<p>```</p>
+
+<p>Of course, if you're using Smarty or some other templating system, you should double-check the Pygments documentation to see if there's a match. For example, I'm a huge fan of <a href="http://twig.sensiolabs.org">Twig</a>, but in this case, there is no <code>TwigLexer</code>. Twig is based on a Jinja, however, and there is a <code>HtmlDjangoLexer</code> with the short name of <code>html+jinja</code> or <code>html+djanjo</code>. It works pretty well.</p>
+
+<p>Who knew reading the docs could be so useful?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Better PHP highlighting in Octopress]]></title>
+    <link href="http://www.joelclermont.com/2013/03/28/better-php-highlighting-in-octopress/"/>
+    <updated>2013-03-28T12:46:00+00:00</updated>
+    <id>http://www.joelclermont.com/2013/03/28/better-php-highlighting-in-octopress</id>
+    <content type="html"><![CDATA[<p>I recently moved my blog from WordPress to <a href="http://octopress.org">Octopress</a>. The experience was painless and I wish I would have done it much earlier. One thing that puzzled me was how Octopress handled PHP syntax highlighting. It seemed that it would only work if every code block started with the opening <code>&lt;?php</code> tag. I found this quite annoying, especially when I only want to show one line of code.</p>
+
+<!-- more -->
+
+
+<p>But Octopress is open source, so I decided to fix it. The first thing to understand is that Octopress is really just a framework that sits on top of the static site generator <a href="http://jekyllrb.com">Jekyll</a>. In addition, Jekyll leverages many existing tools and Ruby gems to do its work. Digging through these layers, I discovered that the <a href="http://pygments.org">Pygments</a> library was responsible for syntax highlighting within code blocks.</p>
+
+<p>In the Pygments documentation, they list all the different language lexers they support. This was interesting to me for two reasons. First, it shows the "short code" to use in your code block to trigger a certain type of language. Some are obvious, like PHP (short code php), but others were not quite so easy to guess. Second, some lexers accept options that affect their behavior. The PhpLexer accepts a <code>startinline</code> option which tells Pygments whether or not to require the <code>&lt;?php</code> tag to begin syntax highlighting. For reasons unknown to me, the default is <code>false</code>.</p>
+
+<p>Next, I had to figure out where to pass this option from Octopress to Pygments. It turned out to be much easier than I expected. I opened the <code>plugins/pygments_code.rb</code> and made the following change:</p>
+
+<p>``` ruby</p>
+
+<h1>original code</h1>
+
+<p>highlighted_code = Pygments.highlight(code, :lexer => lang, :formatter => 'html', :options => {:encoding => 'utf-8'})</p>
+
+<h1>changed code (scroll right to view the change)</h1>
+
+<p>highlighted_code = Pygments.highlight(code, :lexer => lang, :formatter => 'html', :options => {:encoding => 'utf-8', :startinline => true})
+```</p>
+
+<p>This line appears twice in the file, so I changed it in both places. Tests quickly confirmed that this worked and now all my PHP code blocks are being syntaxed highlighted without requiring that pesky open tag.</p>
+
+<p>Being a good open source citizen, I sent a pull request to Octopress on Github. They were very responsive and helpful. They appreciated the patch (apparently this is something people complain about a lot), but asked me to verify this didn't have any unexpected behavior. If you're interested in my tests, go <a href="https://github.com/imathis/octopress/pull/1141">read the pull request thread</a> to see all my variations of PHP with and without start and end tags, PHP mixed with HTML and even some Ruby and Clojure code. In the end, I proved this startinline option only affected PHP code blocks and had no negative side effects.</p>
+
+<p>I expect it to be merged soon, but until then, feel free to make the two small tweaks shown above to get this behavior.</p>
+]]></content>
+  </entry>
+  
+</feed>
