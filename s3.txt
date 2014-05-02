@@ -1,0 +1,3 @@
+user:       blog-publish
+Access Key: AKIAIR4Y7BM3EBZRXVXA
+Secret Key: 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
