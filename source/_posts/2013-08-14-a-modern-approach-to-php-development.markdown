@@ -3,7 +3,7 @@ layout: post
 title: "A modern approach to PHP development"
 date: 2013-08-14 02:48
 comments: true
-categories: 
+categories: [conferences, speaking]
 ---
 This year at [That Conference](http://www.thatconference.com), I presented one of the few talks on PHP. The title of the talk was "[A modern approach to PHP development](https://speakerdeck.com/jclermont/a-modern-approach-to-php-development)." My goal was to expose both PHP and non-PHP developers to some more recent developments in the PHP ecosystem.
 

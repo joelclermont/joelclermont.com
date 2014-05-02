@@ -3,7 +3,7 @@ layout: post
 title: "Learning How to Learn: The Newsletter"
 date: 2014-01-26 03:12
 comments: true
-categories: 
+categories: [news, learning, newsletter]
 ---
 Software developers are, by necessity, lifelong learners. We are constantly facing new challenges, new technologies, new methods of solving problems. But how can we make our learning more efficient? This is a question that I've been pondering for at least four years.
 
