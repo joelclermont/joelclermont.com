@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Go | cogent free knowledge]]></title>
   <link href="http://www.joelclermont.com/categories/go/atom.xml" rel="self"/>
   <link href="http://www.joelclermont.com/"/>
-  <updated>2014-05-02T15:03:32+00:00</updated>
+  <updated>2014-07-26T16:00:30+00:00</updated>
   <id>http://www.joelclermont.com/</id>
   <author>
     <name><![CDATA[Joel Clermont]]></name>
@@ -218,7 +218,7 @@ for i := range c {
 
 <p>I have only briefly described channels and concurrency, but hopefully this is enough to make you curious to learn more. No surprise, but I'm going to again link you to the <a href="http://golangtutorials.blogspot.com/2011/06/channels-in-go.html">Go blog</a> for more information.</p>
 
-<p>What do you think? Is Go interesting to you? Have you tried it yourself? Share your experiences and opinions in the comments. Also, I will be diving even deeper into Go over the next few weeks and posting more information here. If you're interested, <a href="">subscribe to my RSS feed</a>.</p>
+<p>What do you think? Is Go interesting to you? Have you tried it yourself? Share your experiences and opinions in the comments. Also, I will be diving even deeper into Go over the next few weeks and posting more information here. If you're interested, <a href="{{%20site.subscribe_rss%20}}">subscribe to my RSS feed</a>.</p>
 ]]></content>
   </entry>
   

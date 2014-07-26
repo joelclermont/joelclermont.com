@@ -8,18 +8,44 @@ footer: true
 Upcoming Events
 ---------------
 
+### September 2014 - [REST Fest](http://restfest.org)
+
+Haven't decided what to talk about yet. Probably Haskell, Idris or Escher. Something mind-blowing and not directly related to hypermedia.
+
+### September 2014 - [Madison PHP Conference](http://2014.madisonphpconference.com)
+
+I submitted three talks to the CFP. Waiting for speaker selection. 
+
+### November 2014 - [True North PHP](http://truenorthphp.ca)
+
+I submitted three talks to the CFP. Waiting for speaker selection.
+
+Previous Events
+---------------
+
+### July 2014 - [WordCamp Milwaukee](http://2014.milwaukee.wordcamp.org)
+
+Avoid Deployment Surprises and Frustration with Vagrant [Slides](https://speakerdeck.com/jclermont/avoid-deployment-surprises-and-frustation-with-vagrant-and-ansible)
+
+We’ve all had that “works on my machine” moment. We coded and coded, got it working the way we want, went to deploy and . . . . errors. This talk will help WP developers learn how to use Vagrant and Ansible to quickly provision a consistent, isolated development environment that moves seamlessly to production and makes deployment a pain-free and surprise-free experience.
+
+### September 2013 - [REST Fest](http://2013.restfest.org)
+
+HTTP as a state machine - An intro to Erlang/Webmachine
+
+Depending on who you talk to, HTTP is either described as simple or as complex. Personally, I think it's conceptually simple, but complexity lurks in some of the details or implementations. Basho's WebMachine starts by defining the HTTP specification as a finite state machine. Instead of hiding HTTP from you or making too many decisions for you, it strikes a nice balance. In this talk, I will dig a little deeper into why Webmachine is designed the way it is, how it works and why you might consider it for your next API project.
+
+### August 2013 - [ThatConference](http://www.thatconference.com)
+
+A Modern Approach to PHP Development [Slides](https://speakerdeck.com/jclermont/a-modern-approach-to-php-development)
+
+There have been some great advancements in the PHP ecosystem in the last couple years. Come learn about two tools that could make your projects more productive and enjoyable. The first is Composer, a modern dependency manager for PHP. The second is Silex, a small, lightweight framework that gets out of your way, but also gives you a great upgrade path as your needs change and grow over time. I will also discuss Vagrant, a great tool for provisioning a reliable development environment for you and your team.
+
 ### April 2013 - [Tampa Bay PHP](http://www.tbphp.org)
 
 REST APIs: The "R" is not for religious
 
-While my family is on vacation in SW Florida, I will be meeting up with the Tampa Bay PHP group to give an updated version of my REST/Hypermedia API talk.
-
-### August 2013 - [ThatConference](http://www.thatconference.com)
-
-The call for papers opens on Apr 1 and I plan on submitting. Whether I get accepted or not, I will definitely be attending. This was a great first-year conference in 2012 and I know it will be even more amazing this year.
-
-Previous Events
----------------
+While my family was on vacation in SW Florida, I visited the Tampa Bay PHP group to give an updated version of my REST/Hypermedia API talk.
 
 ### March 2013 - [Midwest PHP Conference](http://midwestphp.org)
 
@@ -55,7 +81,7 @@ My Path to Hypermedia Enlightenment ([video](http://vimeo.com/channels/restfest/
 
 ### June 2012 - [WordCamp Milwaukee 2012](http://2012.milwaukee.wordcamp.org)
 
-Contributing to Open Source
+Contributing to Open Source [Slides](https://speakerdeck.com/jclermont/contributing-to-open-source)
 
 ### June 2012 - [Lake / Kenosha PHP](http://www.lakekenoshaphp.com)
 
