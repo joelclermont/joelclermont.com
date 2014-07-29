@@ -4,7 +4,7 @@
   <title><![CDATA[Category: security | cogent free knowledge]]></title>
   <link href="http://www.joelclermont.com/categories/security/atom.xml" rel="self"/>
   <link href="http://www.joelclermont.com/"/>
-  <updated>2014-07-26T16:00:30+00:00</updated>
+  <updated>2014-07-26T15:42:32-05:00</updated>
   <id>http://www.joelclermont.com/</id>
   <author>
     <name><![CDATA[Joel Clermont]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Using Google Authenticator on more than one device]]></title>
     <link href="http://www.joelclermont.com/2012/06/08/using-google-authenticator-on-more-than-one-device/"/>
-    <updated>2012-06-08T15:48:00+00:00</updated>
+    <updated>2012-06-08T15:48:00-05:00</updated>
     <id>http://www.joelclermont.com/2012/06/08/using-google-authenticator-on-more-than-one-device</id>
     <content type="html"><![CDATA[<p>I take security pretty seriously. Some might even call me a little paranoid when it comes to password strength. It's no surprise that I love two-factor authentication then. Not only can I have a super strong password, but I can now require that I have a security token in my possession in order to login. In other words, even if you knew my 16 character random password for gmail, you still could not login without also having my security token.</p>
 
@@ -34,7 +34,7 @@
   <entry>
     <title type="html"><![CDATA[The importance of upgrading]]></title>
     <link href="http://www.joelclermont.com/2011/08/17/the-importance-of-upgrading/"/>
-    <updated>2011-08-17T12:48:00+00:00</updated>
+    <updated>2011-08-17T12:48:00-05:00</updated>
     <id>http://www.joelclermont.com/2011/08/17/the-importance-of-upgrading</id>
     <content type="html"><![CDATA[<p>Most web sites use third-party code. This code comes in a few different flavors:</p>
 

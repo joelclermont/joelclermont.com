@@ -4,7 +4,7 @@
   <title><![CDATA[Category: learning | cogent free knowledge]]></title>
   <link href="http://www.joelclermont.com/categories/learning/atom.xml" rel="self"/>
   <link href="http://www.joelclermont.com/"/>
-  <updated>2014-07-26T16:00:30+00:00</updated>
+  <updated>2014-07-26T15:42:32-05:00</updated>
   <id>http://www.joelclermont.com/</id>
   <author>
     <name><![CDATA[Joel Clermont]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Who Is Responsbile for Your Learning]]></title>
     <link href="http://www.joelclermont.com/2014/05/02/who-is-responsbile-for-your-learning/"/>
-    <updated>2014-05-02T14:35:00+00:00</updated>
+    <updated>2014-05-02T14:35:00-05:00</updated>
     <id>http://www.joelclermont.com/2014/05/02/who-is-responsbile-for-your-learning</id>
     <content type="html"><![CDATA[<p>Are you expecting too much from an author, speaker or teacher? Take charge of your own learning instead. Consider some tips from a recent <a href="http://www.joelclermont.com/2014/01/26/learning-how-to-learn-the-newsletter/" target="_blank">"Learning how to Learn" newsletter</a>.</p>
 
@@ -336,7 +336,7 @@ function mce_success_cb(resp){
   <entry>
     <title type="html"><![CDATA[Learning How to Learn: The Newsletter]]></title>
     <link href="http://www.joelclermont.com/2014/01/26/learning-how-to-learn-the-newsletter/"/>
-    <updated>2014-01-26T03:12:00+00:00</updated>
+    <updated>2014-01-26T03:12:00-06:00</updated>
     <id>http://www.joelclermont.com/2014/01/26/learning-how-to-learn-the-newsletter</id>
     <content type="html"><![CDATA[<p>Software developers are, by necessity, lifelong learners. We are constantly facing new challenges, new technologies, new methods of solving problems. But how can we make our learning more efficient? This is a question that I've been pondering for at least four years.</p>
 

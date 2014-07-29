@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Go | cogent free knowledge]]></title>
   <link href="http://www.joelclermont.com/categories/go/atom.xml" rel="self"/>
   <link href="http://www.joelclermont.com/"/>
-  <updated>2014-07-26T16:00:30+00:00</updated>
+  <updated>2014-07-26T15:42:32-05:00</updated>
   <id>http://www.joelclermont.com/</id>
   <author>
     <name><![CDATA[Joel Clermont]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Day one with Go]]></title>
     <link href="http://www.joelclermont.com/2013/03/27/day-one-with-go/"/>
-    <updated>2013-03-27T18:44:00+00:00</updated>
+    <updated>2013-03-27T18:44:00-05:00</updated>
     <id>http://www.joelclermont.com/2013/03/27/day-one-with-go</id>
     <content type="html"><![CDATA[<p>I have the habit of picking up a new programming language or two each year, not necessarily to master them or even to write production code with them, but just to be exposed to new approaches to familiar problems. For the last few months, <a href="https://twitter.com/donatj">two</a> <a href="https://twitter.com/henderjon">friends</a> of mine have been urging me to try out <a href="http://golang.org">Go</a>, a relatively new language from Google. Since I had a 17-day vacation planned in Florida, I decided to give Go a try while I had abundant free time.</p>
 
@@ -218,7 +218,7 @@ for i := range c {
 
 <p>I have only briefly described channels and concurrency, but hopefully this is enough to make you curious to learn more. No surprise, but I'm going to again link you to the <a href="http://golangtutorials.blogspot.com/2011/06/channels-in-go.html">Go blog</a> for more information.</p>
 
-<p>What do you think? Is Go interesting to you? Have you tried it yourself? Share your experiences and opinions in the comments. Also, I will be diving even deeper into Go over the next few weeks and posting more information here. If you're interested, <a href="{{%20site.subscribe_rss%20}}">subscribe to my RSS feed</a>.</p>
+<p>What do you think? Is Go interesting to you? Have you tried it yourself? Share your experiences and opinions in the comments. Also, I will be diving even deeper into Go over the next few weeks and posting more information here. If you're interested, <a href="">subscribe to my RSS feed</a>.</p>
 ]]></content>
   </entry>
   

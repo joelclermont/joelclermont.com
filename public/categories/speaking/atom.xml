@@ -4,7 +4,7 @@
   <title><![CDATA[Category: speaking | cogent free knowledge]]></title>
   <link href="http://www.joelclermont.com/categories/speaking/atom.xml" rel="self"/>
   <link href="http://www.joelclermont.com/"/>
-  <updated>2014-07-26T16:00:30+00:00</updated>
+  <updated>2014-07-26T15:42:32-05:00</updated>
   <id>http://www.joelclermont.com/</id>
   <author>
     <name><![CDATA[Joel Clermont]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[A modern approach to PHP development]]></title>
     <link href="http://www.joelclermont.com/2013/08/14/a-modern-approach-to-php-development/"/>
-    <updated>2013-08-14T02:48:00+00:00</updated>
+    <updated>2013-08-14T02:48:00-05:00</updated>
     <id>http://www.joelclermont.com/2013/08/14/a-modern-approach-to-php-development</id>
     <content type="html"><![CDATA[<p>This year at <a href="http://www.thatconference.com">That Conference</a>, I presented one of the few talks on PHP. The title of the talk was "<a href="https://speakerdeck.com/jclermont/a-modern-approach-to-php-development">A modern approach to PHP development</a>." My goal was to expose both PHP and non-PHP developers to some more recent developments in the PHP ecosystem.</p>
 
@@ -32,7 +32,7 @@
   <entry>
     <title type="html"><![CDATA[Contributing to Open Source Projects (slides)]]></title>
     <link href="http://www.joelclermont.com/2012/06/03/contributing-to-open-source-projects-slides/"/>
-    <updated>2012-06-03T16:56:00+00:00</updated>
+    <updated>2012-06-03T16:56:00-05:00</updated>
     <id>http://www.joelclermont.com/2012/06/03/contributing-to-open-source-projects-slides</id>
     <content type="html"><![CDATA[<p>Thanks to everyone who attended my talk today, especially those that asked questions and gave me feedback afterwards.</p>
 
@@ -50,7 +50,7 @@
   <entry>
     <title type="html"><![CDATA[Speaking at WordCamp Milwaukee]]></title>
     <link href="http://www.joelclermont.com/2012/05/22/speaking-at-wordcamp-milwaukee/"/>
-    <updated>2012-05-22T09:10:00+00:00</updated>
+    <updated>2012-05-22T09:10:00-05:00</updated>
     <id>http://www.joelclermont.com/2012/05/22/speaking-at-wordcamp-milwaukee</id>
     <content type="html"><![CDATA[<p>Just a quick note that I'll be speaking at WordCamp Milwaukee on June 3. The talk is titled "Contributing to Open Source Projects". It's not really a WordPress specific topic, but more of a general encouragement for everyone to get involved in open source and how specifically to go about it. Read the <a href="http://2012.milwaukee.wordcamp.org/session/contributing-to-open-source-projects/">official brief on the WordCamp site</a>.</p>
 

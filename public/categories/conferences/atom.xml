@@ -4,7 +4,7 @@
   <title><![CDATA[Category: conferences | cogent free knowledge]]></title>
   <link href="http://www.joelclermont.com/categories/conferences/atom.xml" rel="self"/>
   <link href="http://www.joelclermont.com/"/>
-  <updated>2014-07-26T16:00:30+00:00</updated>
+  <updated>2014-07-26T15:42:32-05:00</updated>
   <id>http://www.joelclermont.com/</id>
   <author>
     <name><![CDATA[Joel Clermont]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[A modern approach to PHP development]]></title>
     <link href="http://www.joelclermont.com/2013/08/14/a-modern-approach-to-php-development/"/>
-    <updated>2013-08-14T02:48:00+00:00</updated>
+    <updated>2013-08-14T02:48:00-05:00</updated>
     <id>http://www.joelclermont.com/2013/08/14/a-modern-approach-to-php-development</id>
     <content type="html"><![CDATA[<p>This year at <a href="http://www.thatconference.com">That Conference</a>, I presented one of the few talks on PHP. The title of the talk was "<a href="https://speakerdeck.com/jclermont/a-modern-approach-to-php-development">A modern approach to PHP development</a>." My goal was to expose both PHP and non-PHP developers to some more recent developments in the PHP ecosystem.</p>
 
@@ -32,7 +32,7 @@
   <entry>
     <title type="html"><![CDATA[Speaking at WordCamp Milwaukee]]></title>
     <link href="http://www.joelclermont.com/2012/05/22/speaking-at-wordcamp-milwaukee/"/>
-    <updated>2012-05-22T09:10:00+00:00</updated>
+    <updated>2012-05-22T09:10:00-05:00</updated>
     <id>http://www.joelclermont.com/2012/05/22/speaking-at-wordcamp-milwaukee</id>
     <content type="html"><![CDATA[<p>Just a quick note that I'll be speaking at WordCamp Milwaukee on June 3. The talk is titled "Contributing to Open Source Projects". It's not really a WordPress specific topic, but more of a general encouragement for everyone to get involved in open source and how specifically to go about it. Read the <a href="http://2012.milwaukee.wordcamp.org/session/contributing-to-open-source-projects/">official brief on the WordCamp site</a>.</p>
 
@@ -46,7 +46,7 @@
   <entry>
     <title type="html"><![CDATA[Onsite for CodeMash]]></title>
     <link href="http://www.joelclermont.com/2012/01/09/onsite-for-codemash/"/>
-    <updated>2012-01-09T00:14:00+00:00</updated>
+    <updated>2012-01-09T00:14:00-06:00</updated>
     <id>http://www.joelclermont.com/2012/01/09/onsite-for-codemash</id>
     <content type="html"><![CDATA[<p>Over the next week, I'm going to be adding quite a few short posts chronicling my experience at the <a href="http://codemash.org">CodeMash</a> conference. The event is a few years old, but this is the first year I'm attending.</p>
 
@@ -62,7 +62,7 @@
   <entry>
     <title type="html"><![CDATA[Finally, a PHP conference in Wisconsin!]]></title>
     <link href="http://www.joelclermont.com/2011/08/04/finally-a-php-conference-in-wisconsin/"/>
-    <updated>2011-08-04T16:49:00+00:00</updated>
+    <updated>2011-08-04T16:49:00-05:00</updated>
     <id>http://www.joelclermont.com/2011/08/04/finally-a-php-conference-in-wisconsin</id>
     <content type="html"><![CDATA[<p>I'm a huge fan of <a href="http://www.phparch.com/">php|architect</a>: the magazine, the books, the online training and especially their conferences. Living in the Milwaukee metro area, I have a short 90 minute drive to the flagship <a href="http://tek.phparch.com/">php|tek conference</a> they host in Chicago each year. My schedule doesn't always allow me to attend, but I do everything I can to make it. I'm still putting into practice the things I learned at php|tek 2010 and I regularly keep in touch with the many friends I met there.</p>
 

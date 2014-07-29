@@ -4,7 +4,7 @@
   <title><![CDATA[Category: programming | cogent free knowledge]]></title>
   <link href="http://www.joelclermont.com/categories/programming/atom.xml" rel="self"/>
   <link href="http://www.joelclermont.com/"/>
-  <updated>2014-07-26T16:00:30+00:00</updated>
+  <updated>2014-07-26T15:42:32-05:00</updated>
   <id>http://www.joelclermont.com/</id>
   <author>
     <name><![CDATA[Joel Clermont]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Day one with Go]]></title>
     <link href="http://www.joelclermont.com/2013/03/27/day-one-with-go/"/>
-    <updated>2013-03-27T18:44:00+00:00</updated>
+    <updated>2013-03-27T18:44:00-05:00</updated>
     <id>http://www.joelclermont.com/2013/03/27/day-one-with-go</id>
     <content type="html"><![CDATA[<p>I have the habit of picking up a new programming language or two each year, not necessarily to master them or even to write production code with them, but just to be exposed to new approaches to familiar problems. For the last few months, <a href="https://twitter.com/donatj">two</a> <a href="https://twitter.com/henderjon">friends</a> of mine have been urging me to try out <a href="http://golang.org">Go</a>, a relatively new language from Google. Since I had a 17-day vacation planned in Florida, I decided to give Go a try while I had abundant free time.</p>
 
@@ -218,14 +218,14 @@ for i := range c {
 
 <p>I have only briefly described channels and concurrency, but hopefully this is enough to make you curious to learn more. No surprise, but I'm going to again link you to the <a href="http://golangtutorials.blogspot.com/2011/06/channels-in-go.html">Go blog</a> for more information.</p>
 
-<p>What do you think? Is Go interesting to you? Have you tried it yourself? Share your experiences and opinions in the comments. Also, I will be diving even deeper into Go over the next few weeks and posting more information here. If you're interested, <a href="{{%20site.subscribe_rss%20}}">subscribe to my RSS feed</a>.</p>
+<p>What do you think? Is Go interesting to you? Have you tried it yourself? Share your experiences and opinions in the comments. Also, I will be diving even deeper into Go over the next few weeks and posting more information here. If you're interested, <a href="">subscribe to my RSS feed</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Pass Puppet command line options with Vagrant]]></title>
     <link href="http://www.joelclermont.com/2012/12/25/pass-puppet-command-line-options-with-vagrant/"/>
-    <updated>2012-12-25T23:03:00+00:00</updated>
+    <updated>2012-12-25T23:03:00-06:00</updated>
     <id>http://www.joelclermont.com/2012/12/25/pass-puppet-command-line-options-with-vagrant</id>
     <content type="html"><![CDATA[<p>This week, I finally blocked some time to seriously investigate Vagrant and Puppet. The documentation for both tools is decent.</p>
 
@@ -260,7 +260,7 @@ end
   <entry>
     <title type="html"><![CDATA[Git goodies: see all unpushed files]]></title>
     <link href="http://www.joelclermont.com/2012/08/25/git-goodies-see-all-unpushed-files/"/>
-    <updated>2012-08-25T14:22:00+00:00</updated>
+    <updated>2012-08-25T14:22:00-05:00</updated>
     <id>http://www.joelclermont.com/2012/08/25/git-goodies-see-all-unpushed-files</id>
     <content type="html"><![CDATA[<p>My preferred workflow is to be able to push changes into production using git. However, sometimes the project/server doesn't support this (yet).</p>
 
@@ -288,7 +288,7 @@ unpushed = !sh -c 'git log origin/master..master --name-only --pretty="format:" 
   <entry>
     <title type="html"><![CDATA[Date calculations are more complex than you think]]></title>
     <link href="http://www.joelclermont.com/2011/09/14/date-calculations-are-more-complex-than-you-think/"/>
-    <updated>2011-09-14T15:14:00+00:00</updated>
+    <updated>2011-09-14T15:14:00-05:00</updated>
     <id>http://www.joelclermont.com/2011/09/14/date-calculations-are-more-complex-than-you-think</id>
     <content type="html"><![CDATA[<p>Date and time manipulation is an area of programming that seems relatively simple on its surface, but lots of danger lurks just out of view. How hard could it possibly be to take a date/time and add 1 day to it? or 1 week? Piece of cake, right? You might do something like this:</p>
 
@@ -328,7 +328,7 @@ echo date('Y-m-d', $newEventTime);
   <entry>
     <title type="html"><![CDATA[WordPress plugin for contextual dynamic text]]></title>
     <link href="http://www.joelclermont.com/2011/07/16/wordpress-plugin-for-contextual-dynamic-text/"/>
-    <updated>2011-07-16T21:35:00+00:00</updated>
+    <updated>2011-07-16T21:35:00-05:00</updated>
     <id>http://www.joelclermont.com/2011/07/16/wordpress-plugin-for-contextual-dynamic-text</id>
     <content type="html"><![CDATA[<p>WordPress has a concept called <a href="http://codex.wordpress.org/Shortcode_API">shortcodes</a>. They're very handy for inserting chunks of text or functionality with a simple text syntax. For example, one of the stock shortcodes allows you to type <code>[gallery]</code> in a post where you want a photo gallery to appear. But the real power is exposed when you start building your own shortcodes.</p>
 

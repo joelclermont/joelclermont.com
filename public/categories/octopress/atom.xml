@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | cogent free knowledge]]></title>
   <link href="http://www.joelclermont.com/categories/octopress/atom.xml" rel="self"/>
   <link href="http://www.joelclermont.com/"/>
-  <updated>2014-07-26T16:00:30+00:00</updated>
+  <updated>2014-07-26T15:42:32-05:00</updated>
   <id>http://www.joelclermont.com/</id>
   <author>
     <name><![CDATA[Joel Clermont]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Highlight PHP and HTML in Octopress]]></title>
     <link href="http://www.joelclermont.com/2013/03/29/highlight-php-and-html-in-octopress/"/>
-    <updated>2013-03-29T19:46:00+00:00</updated>
+    <updated>2013-03-29T19:46:00-05:00</updated>
     <id>http://www.joelclermont.com/2013/03/29/highlight-php-and-html-in-octopress</id>
     <content type="html"><![CDATA[<p>In <a href="http://www.joelclermont.com/2013/03/28/better-php-highlighting-in-octopress/">yesterday's post on Octopress</a>, I briefly mentioned the Pygments lexer documentation. One of the things I found incredibly useful was understanding all the available lexers and which language code would invoke them.</p>
 
@@ -62,7 +62,7 @@
   <entry>
     <title type="html"><![CDATA[Better PHP highlighting in Octopress]]></title>
     <link href="http://www.joelclermont.com/2013/03/28/better-php-highlighting-in-octopress/"/>
-    <updated>2013-03-28T12:46:00+00:00</updated>
+    <updated>2013-03-28T12:46:00-05:00</updated>
     <id>http://www.joelclermont.com/2013/03/28/better-php-highlighting-in-octopress</id>
     <content type="html"><![CDATA[<p>I recently moved my blog from WordPress to <a href="http://octopress.org">Octopress</a>. The experience was painless and I wish I would have done it much earlier. One thing that puzzled me was how Octopress handled PHP syntax highlighting. It seemed that it would only work if every code block started with the opening <code>&lt;?php</code> tag. I found this quite annoying, especially when I only want to show one line of code.</p>
 

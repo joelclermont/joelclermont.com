@@ -4,7 +4,7 @@
   <title><![CDATA[Category: git | cogent free knowledge]]></title>
   <link href="http://www.joelclermont.com/categories/git/atom.xml" rel="self"/>
   <link href="http://www.joelclermont.com/"/>
-  <updated>2014-07-26T16:00:30+00:00</updated>
+  <updated>2014-07-26T15:42:32-05:00</updated>
   <id>http://www.joelclermont.com/</id>
   <author>
     <name><![CDATA[Joel Clermont]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Git goodies: see all unpushed files]]></title>
     <link href="http://www.joelclermont.com/2012/08/25/git-goodies-see-all-unpushed-files/"/>
-    <updated>2012-08-25T14:22:00+00:00</updated>
+    <updated>2012-08-25T14:22:00-05:00</updated>
     <id>http://www.joelclermont.com/2012/08/25/git-goodies-see-all-unpushed-files</id>
     <content type="html"><![CDATA[<p>My preferred workflow is to be able to push changes into production using git. However, sometimes the project/server doesn't support this (yet).</p>
 
