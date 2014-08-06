@@ -1,211 +1,46 @@
+---
+layout: post
+title: "Practice Makes You a Better Developer"
+date: 2014-08-06 11:23
+comments: true
+categories: 
+---
+We've all heard the saying "practice makes perfect," but *how* you practice and *what* you practice are critical to making it an effective practice session. Consider some tips from a recent <a href="http://www.joelclermont.com/2014/01/26/learning-how-to-learn-the-newsletter/" target="_blank">"Learning how to Learn" newsletter</a>.
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>Category: opinion - cogent free knowledge</title>
-  <meta name="author" content="Joel Clermont">
+<!-- more -->
+## There are no shortcuts to skill mastery
 
-  
-  <meta name="description" content="Category: opinion">
-  
+It may vary somewhat from region to region, but in general, software developers are in fairly high demand in the job market. As a result, it is not uncommon for a developer to get regular unsolicited requests to apply for open positions. Even though I'm not looking for work, I'll sometimes read the job descriptions out of curiosity. Perhaps you have done the same. I've observed a trend in these job announcements: on average, only two skill levels are being pursued, the novice and the expert.
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+You won't usually see these specific terms used, you need to read between the lines. For example, "junior developer" often really means "we need a warm body to do basic tasks and we don't want to pay a lot." Sometimes the clue is in the number of years of experience. "6 years of iOS experience" really translates to expert, considering that the iOS SDK has only been available for about 6.5 years. Other times, you'll see horrible stereotypes like "rockstar" or "code ninja", when what they really want to ask for is an expert.
 
-  
-  <link rel="canonical" href="http://www.joelclermont.comcategories/opinion">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="http://feeds.feedburner.com/joelclermont" rel="alternate" title="cogent free knowledge" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+But what do descriptions like "novice" or "expert" really mean? Who determines if I am an expert? Is it subjective or something that can be specifically measured? One useful method for considering skill level is the Dreyfus model of skill acquisition. In this method, there are five different levels of mastery for a skill: novice, advanced beginner, competent, proficient, expert. There are several factors that determine where an individual falls for a particular skill. (This may seem obvious, but it's important to point out that you can be proficient in one skill, but only competent in another. This is true even for very closely related skills within a single field.)
 
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-21763858-1']);
-    _gaq.push(['_trackPageview']);
+I'm going to gloss over two important details right now: what is the precise definition of each skill level, and how do I determine my level for a particular skill? Both of these will be featured in a future newsletter. If you absolutely cannot wait, I highly recommend getting <a href="http://pragprog.com/book/ahptl/pragmatic-thinking-and-learning" target="_blank">Pragmatic Thinking and Learning</a> and reading chapter 2.
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+The area I want to focus on is how to move up the skill ladder. If you've subscribed to this newsletter, there is a very strong likelihood you are not content with remaining at your current skill level. Or perhaps you want to acquire new skills and move beyond the novice stage. What is the secret? Many people don't like to hear it, but the surest way to increase your mastery of a skill is practice. As highlighted in the opening heading, there is no shortcut to this process. But what do we practice? Why is practice so important?
 
+Let's step back out of the world of technology for a moment and look at skill acquisition in another area: music. When you learn to play a musical instrument, a lot of practice is involved. When I was younger, I took piano lessons. These lessons were about 20 - 30 minutes, twice a week. I would play a selection for the teacher, she would make some observations on my technique, and then I would get a specific assignment to practice until next time. But in addition to some short musical piece, I was ALWAYS expected to practice my scales.
 
-</head>
+Scales are one of the most basic elements of playing a musical instrument. It is one of the first things you learn, but it is something that remains part of your practice, even as you master the instrument. This isn't just true of piano, it's true of stringed instruments, brass and woodwinds, and even a singer's voice. It is common for even world-renowned musicians to still spend time each practice session on scales. Why is so much emphasis placed on such a basic technique?
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">cogent free knowledge</a></h1>
-  
-    <h2>Personal blog of Joel Clermont, a Milwaukee PHP, Ruby and .NET developer</h2>
-  
-</hgroup>
+It's not just about memorization, although this is a part of it. One big benefit you get from repeated practice of scales is **muscle memory**. Your fingers become so accustomed to certain patterns of movement, they become second nature. In addition, you improve your **technique**. Playing a note on an instrument involves numerous variables: how hard you strike, how long you hold, how you blend to the next note, and so on. The more you practice playing basic sequences of individual notes, the more precise and the more expressive your technique becomes. Scales are the basis for **music theory**. Deeply understanding these basic building blocks of composition help in improvisation, accompaniment and a richer appreciation for a musical piece. Not to be overlooked either, scales **train your ear**. You know what various scales should sound like. This liberates you from being too tied to sheet music or thinking too hard about individual notes and instead you can think in phrases. A trained ear
+also helps you spot when something isn't quite right, helping you to adjust quickly if you get off course a bit.
 
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="http://feeds.feedburner.com/joelclermont" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:www.joelclermont.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/speaking">Speaking</a></li>
-  <li><a href="/contact">Contact</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
+So how can we apply this to software development skills? What is the equivalent of musical scales in a programming language?
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div>
-<article role="article">
-  
-  <header>
-    <h1 class="entry-title">Category: Opinion</h1>
-    
-  </header>
-  
-  <div id="blog-archives" class="category">
+**Practice the basics.** String manipulation, array sorting/filtering, input processing, database interaction. These are the "scales" for programming. Go to the documentation for your language, find a high-level guide or introduction and build some exercises around these basic things.
 
+**With and without tooling.** We all have our favorite tools. For some, it is an IDE, for others it is a powerful text editor. Often, we have shortcuts and macros and key combos and snippets and templates and all kinds of ways to automate what we do. When practicing, take time to practice both with and without these aids. Sometimes, I would practice scales on the piano in the dark, only by touch. Being proficient with the basics in even a "vanilla" environment helps with mastery.
 
+**Code katas.** A "code kata" is a simple exercise meant to be repeated and practiced time and time again. Scoring a bowling game, converting decimal to Roman numerals, calculating prime factors. These are all classic examples, but there are <a href="http://codekata.com" target="_blank">many</a> <a href="http://content.codersdojo.org/code-kata-catalogue/" target="_blank">many</a> more.
 
-  
-  <h2>2012</h2>
+Just like a musician, a programmer can benefit from muscle memory, improved technique, a deep understanding of the basic building blocks of their craft and a "trained ear" that knows what common solutions look like. Of course, practicing scales is not the only thing a musician does. They spend plenty of time on other deep areas of study as well. So don't limit yourself to this one technique, but don't overlook it either. "Warm up" with a scale on a regular basis and acquire a deeper mastery of your skill.
 
-<article>
-  
-<h1><a href="/2012/11/28/the-oppressive-nature-of-mathematical-facts/">The oppressive nature of mathematical facts</a></h1>
-<time datetime="2012-11-28T19:54:00-06:00" pubdate><span class='month'>Nov</span> <span class='day'>28</span> <span class='year'>2012</span></time>
+For a practical demonstration of this approach to practice and learning, take a look at Zed Shaw's <a href="http://learncodethehardway.org" target="_blank">"Learning the Hard Way" series</a>. He has a musical background and applies many of these concepts to his method as well. Related to this, Zed recently appeared on <a href="http://hanselminutes.com/407/learning-code-the-hard-way-with-zed-shaw" target="_blank">the Hanselminutes podcast</a> and talked about some of these same concepts.
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/categories/math/'>math</a>, <a class='category' href='/categories/opinion/'>opinion</a></span>
-</footer>
+If you enjoyed this article, and want more tips on effective learning for software developers, **take 30 seconds and subscribe** to my newsletter below.
 
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/2012/04/17/i-love-twitter-bootstrap/">I love Twitter Bootstrap</a></h1>
-<time datetime="2012-04-17T23:31:00-05:00" pubdate><span class='month'>Apr</span> <span class='day'>17</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/categories/design/'>design</a>, <a class='category' href='/categories/opinion/'>opinion</a></span>
-</footer>
-
-
-</article>
-
-
-
-  
-  <h2>2011</h2>
-
-<article>
-  
-<h1><a href="/2011/08/17/the-importance-of-upgrading/">The importance of upgrading</a></h1>
-<time datetime="2011-08-17T12:48:00-05:00" pubdate><span class='month'>Aug</span> <span class='day'>17</span> <span class='year'>2011</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/categories/opinion/'>opinion</a>, <a class='category' href='/categories/security/'>security</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/2011/08/04/finally-a-php-conference-in-wisconsin/">Finally, a PHP conference in Wisconsin!</a></h1>
-<time datetime="2011-08-04T16:49:00-05:00" pubdate><span class='month'>Aug</span> <span class='day'>04</span> <span class='year'>2011</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/categories/conferences/'>conferences</a>, <a class='category' href='/categories/opinion/'>opinion</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/2011/07/07/do-programmers-rely-too-heavily-on-internet-resources/">Do programmers rely too heavily on Internet resources?</a></h1>
-<time datetime="2011-07-07T14:25:00-05:00" pubdate><span class='month'>Jul</span> <span class='day'>07</span> <span class='year'>2011</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/categories/opinion/'>opinion</a></span>
-</footer>
-
-
-</article>
-
-</div>
-
-  
-</article>
-
-</div>
-
-<aside class="sidebar">
-  
-    
-<section>
-  <h1>Twitter</h1>
-  <div>
-    <p><br /><a href="http://twitter.com/jclermont" target="_blank">View my tweets</a></p>
-    <a href="http://twitter.com/jclermont" class="twitter-follow-button" data-show-count="">Follow @jclermont</a>
-  </div>
-</section>
-<section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/2014/08/06/practice-makes-you-a-better-developer/">Practice Makes You a Better Developer</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2014/05/02/who-is-responsbile-for-your-learning/">Who Is Responsbile for Your Learning</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2014/01/26/learning-how-to-learn-the-newsletter/">Learning How to Learn: The Newsletter</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2013/08/14/a-modern-approach-to-php-development/">A modern approach to PHP development</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2013/03/29/highlight-php-and-html-in-octopress/">Highlight PHP and HTML in Octopress</a>
-      </li>
-    
-  </ul>
-</section>
 <!-- Begin MailChimp Signup Form -->
 <link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -215,8 +50,7 @@
 </style>
 <div id="mc_embed_signup">
 <form action="http://joelclermont.us4.list-manage.com/subscribe/post?u=5abeba9688261dbb0d2733fe4&amp;id=ff515965b5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <h2>Become more effective at learning</h2>
-    <h2>Subscribe to my newsletter and start improving your skills!</h2>
+    <h2>Become more effective at learning. Subscribe to my newsletter and start improving your skills!</h2>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
     <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
@@ -417,85 +251,3 @@ function mce_success_cb(resp){
 
 </script>
 <!--End mc_embed_signup-->
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating...</li>
-  </ul>
-  
-  <a href="https://github.com/joelclermont">@joelclermont</a> on GitHub
-  
-  <script type="text/javascript">
-    $(document).ready(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'joelclermont',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-
-
-
-  
-</aside>
-
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Joel Clermont -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-<script type="text/javascript">
-      var disqus_shortname = 'jclermont';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>

@@ -4,7 +4,7 @@
   <title><![CDATA[cogent free knowledge]]></title>
   <link href="http://www.joelclermont.com/atom.xml" rel="self"/>
   <link href="http://www.joelclermont.com/"/>
-  <updated>2014-07-26T15:42:32-05:00</updated>
+  <updated>2014-08-06T12:24:55-05:00</updated>
   <id>http://www.joelclermont.com/</id>
   <author>
     <name><![CDATA[Joel Clermont]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Practice Makes You a Better Developer]]></title>
+    <link href="http://www.joelclermont.com/2014/08/06/practice-makes-you-a-better-developer/"/>
+    <updated>2014-08-06T11:23:00-05:00</updated>
+    <id>http://www.joelclermont.com/2014/08/06/practice-makes-you-a-better-developer</id>
+    <content type="html"><![CDATA[<p>We&#8217;ve all heard the saying &#8220;practice makes perfect,&#8221; but <em>how</em> you practice and <em>what</em> you practice are critical to making it an effective practice session. Consider some tips from a recent <a href="http://www.joelclermont.com/2014/01/26/learning-how-to-learn-the-newsletter/" target="_blank">&#8220;Learning how to Learn&#8221; newsletter</a>.</p>
+
+ <br /><a href="http://www.joelclermont.com/2014/08/06/practice-makes-you-a-better-developer/">Read More &hellip;</a>]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Who Is Responsbile for Your Learning]]></title>
@@ -242,18 +252,6 @@
     <content type="html"><![CDATA[<p>WordPress has a concept called <a href="http://codex.wordpress.org/Shortcode_API">shortcodes</a>. They&#8217;re very handy for inserting chunks of text or functionality with a simple text syntax. For example, one of the stock shortcodes allows you to type <code>[gallery]</code> in a post where you want a photo gallery to appear. But the real power is exposed when you start building your own shortcodes.</p>
 
  <br /><a href="http://www.joelclermont.com/2011/07/16/wordpress-plugin-for-contextual-dynamic-text/">Read More &hellip;</a>]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Do programmers rely too heavily on Internet resources?]]></title>
-    <link href="http://www.joelclermont.com/2011/07/07/do-programmers-rely-too-heavily-on-internet-resources/"/>
-    <updated>2011-07-07T14:25:00-05:00</updated>
-    <id>http://www.joelclermont.com/2011/07/07/do-programmers-rely-too-heavily-on-internet-resources</id>
-    <content type="html"><![CDATA[<p>Let&#8217;s face it: there is a <em>lot</em> to know as a programmer. There is the syntax of your preferred language(s), the syntax and function library of your database technology and you probably have some sort of framework or common library containing dozens, if not hundreds, of classes on top of that. This can be overwhelming at first, but most programmers recognize the folly in trying to memorize everything. The reality is you probably only need to commit a small percentage of that knowledge to memory. The rest can be assisted by your IDE, the documentation or an Internet search.</p>
-
-<p>Lately, though, I&#8217;ve begun wondering if programmers might take this notion too far and rely too heavily on their &#8220;extended memory.&#8221; This thought occurred to me as I was browsing my Google search history. I saw a couple searches come up repeatedly every few weeks over the course of the last several months. Could it be possible that I was really searching time and time again for the same answer to the same question? It was a scary thought.</p>
-
- <br /><a href="http://www.joelclermont.com/2011/07/07/do-programmers-rely-too-heavily-on-internet-resources/">Read More &hellip;</a>]]></content>
   </entry>
   
 </feed>
