@@ -4,7 +4,7 @@
   <title><![CDATA[cogent free knowledge]]></title>
   <link href="http://www.joelclermont.com/atom.xml" rel="self"/>
   <link href="http://www.joelclermont.com/"/>
-  <updated>2014-08-06T12:24:55-05:00</updated>
+  <updated>2014-12-23T20:02:22-06:00</updated>
   <id>http://www.joelclermont.com/</id>
   <author>
     <name><![CDATA[Joel Clermont]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[An Offer of Help]]></title>
+    <link href="http://www.joelclermont.com/2014/12/23/an-offer-of-help/"/>
+    <updated>2014-12-23T18:45:00-06:00</updated>
+    <id>http://www.joelclermont.com/2014/12/23/an-offer-of-help</id>
+    <content type="html"><![CDATA[<p>From time to time, I see people lamenting how many sites are &#8220;stuck&#8221; on old versions of PHP. Other times, I see people dealing with poor (shared) hosting environments, manual deploys with FTP, no local testing environment, and so on. Instead of sitting back and shaking my head, I&#8217;ve decided to do something about it.</p>
+
+ <br /><a href="http://www.joelclermont.com/2014/12/23/an-offer-of-help/">Read More &hellip;</a>]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Practice Makes You a Better Developer]]></title>
@@ -242,16 +252,6 @@
     <content type="html"><![CDATA[<p>I&#8217;m a huge fan of <a href="http://www.phparch.com/">php|architect</a>: the magazine, the books, the online training and especially their conferences. Living in the Milwaukee metro area, I have a short 90 minute drive to the flagship <a href="http://tek.phparch.com/">php|tek conference</a> they host in Chicago each year. My schedule doesn&#8217;t always allow me to attend, but I do everything I can to make it. I&#8217;m still putting into practice the things I learned at php|tek 2010 and I regularly keep in touch with the many friends I met there.</p>
 
  <br /><a href="http://www.joelclermont.com/2011/08/04/finally-a-php-conference-in-wisconsin/">Read More &hellip;</a>]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[WordPress plugin for contextual dynamic text]]></title>
-    <link href="http://www.joelclermont.com/2011/07/16/wordpress-plugin-for-contextual-dynamic-text/"/>
-    <updated>2011-07-16T21:35:00-05:00</updated>
-    <id>http://www.joelclermont.com/2011/07/16/wordpress-plugin-for-contextual-dynamic-text</id>
-    <content type="html"><![CDATA[<p>WordPress has a concept called <a href="http://codex.wordpress.org/Shortcode_API">shortcodes</a>. They&#8217;re very handy for inserting chunks of text or functionality with a simple text syntax. For example, one of the stock shortcodes allows you to type <code>[gallery]</code> in a post where you want a photo gallery to appear. But the real power is exposed when you start building your own shortcodes.</p>
-
- <br /><a href="http://www.joelclermont.com/2011/07/16/wordpress-plugin-for-contextual-dynamic-text/">Read More &hellip;</a>]]></content>
   </entry>
   
 </feed>

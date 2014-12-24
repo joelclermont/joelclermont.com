@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>The oppressive nature of mathematical facts - cogent free knowledge</title>
+  <title>An Offer of Help - cogent free knowledge</title>
   <meta name="author" content="Joel Clermont">
 
   
-  <meta name="description" content="I was frustrated watching the news tonight, seeing reports of long lines of people waiting to buy lottery tickets for tonight&#8217;s $500,000,000+ &hellip;">
+  <meta name="description" content="From time to time, I see people lamenting how many sites are &#8220;stuck&#8221; on old versions of PHP. Other times, I see people dealing with poor &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.joelclermont.com/2012/11/28/the-oppressive-nature-of-mathematical-facts">
+  <link rel="canonical" href="http://www.joelclermont.com/2014/12/23/an-offer-of-help">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="http://feeds.feedburner.com/joelclermont" rel="alternate" title="cogent free knowledge" type="application/atom+xml">
@@ -82,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">The Oppressive Nature of Mathematical Facts</h1>
+      <h1 class="entry-title">An Offer of Help</h1>
     
     
       <p class="meta">
@@ -98,41 +98,29 @@
   
 
 
-<time datetime="2012-11-28T19:54:00-06:00" pubdate data-updated="true">Nov 28<span>th</span>, 2012</time>
+<time datetime="2014-12-23T18:45:00-06:00" pubdate data-updated="true">Dec 23<span>rd</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>I was frustrated watching the news tonight, seeing reports of long lines of people waiting to buy lottery tickets for tonight&#8217;s $500,000,000+ jackpot. There are several angles of absurdity to consider here. For example, why all the excitement over $500 million? Wouldn&#8217;t any of these players be equally thrilled by $10 million or even $5 million? Another example: Several of the people interviewed, who had just bought <em>hundreds</em> of dollars of tickets, were unemployed, facing foreclosure, struggling to pay medical bills, and so forth. But putting all that aside, let&#8217;s just look at the math.</p>
+<div class="entry-content"><p>From time to time, I see people lamenting how many sites are &#8220;stuck&#8221; on old versions of PHP. Other times, I see people dealing with poor (shared) hosting environments, manual deploys with FTP, no local testing environment, and so on. Instead of sitting back and shaking my head, I&#8217;ve decided to do something about it.</p>
 
 <!-- more -->
 
 
-<p>Sometimes, when presented with large numbers, we simply fail to grasp how large they are. This is especially true when it comes to matters of probability and statistics. So let&#8217;s try to break this down into smaller pieces to make it more tangible. What if I asked you to guess my home address? I would even tell you what street I lived on and you knew there are only about 100 homes on my street. (Pretend you had a list of valid address, so you won&#8217;t be able to guess a home address that doesn&#8217;t exist.) It&#8217;s <em>possible</em> you could guess it on the first try, but we all know it would be relatively unlikely. The odds would be 1 in 100.</p>
+<p>I&#8217;ve moved all my sites off of shared servers. Everything has a packaged environment setup with Vagrant and Ansible, code is predictibly deployed with git, PHP 5.6 all around, updates and maintenance are non-events. I&#8217;ve also said goodbye to Apache and moved everything to Nginix. PHP has been replaced on several sites with HHVM. The changes aren&#8217;t just for change&#8217;s sake, but they&#8217;ve made my clients happier, my sites run better and working with them more enjoyable.</p>
 
-<p>We can grasp that. 1 in 100 is a tangible probability. Those are pretty good odds, right? Well, it depends on the context. Put those odds it another situation: what if you went to the doctor and were diagnosed with an illness that had a 1 in 100 chance of survival. Would you like those odds? No, in that context 1 in 100 is very bad. It is a very slim ray of hope, right? Kind of depressing.</p>
+<p>I&#8217;d like to help spread that joy. My time is fairly limited, but I&#8217;m going to set aside time each month to help one developer make the jump from shared hosting to a virtual machine, from an unpredictable testing environment to Vagrant, from PHP 5.2 or 5.3 to PHP 5.6. My hope is that as I help a small number of developers to make that leap, they in turn can &#8220;pay it forward&#8221; and help someone else make the leap. If the idea spreads enough, maybe we&#8217;ll see usage of old PHP versions start to disappear. A guy can dream, can&#8217;t he?</p>
 
-<p>Oh, but it gets worse. What if I only told you what city I lived in? Now the odds are 1 in 4734 (all statistics are from the 2010 census). Now what if I only told you that I lived in Ozaukee County? Odds now shift to a meager 1 in 36,000.</p>
+<p>If you&#8217;re interested in my offer of help, click the Contact link in the top navigation of this site and tell me a little about your project: What is your current environment? Where would you like to go? What are you pain points currently? What is the risk involved in the move? What has held you back from doing this sooner?</p>
 
-<p>Let&#8217;s keep going &#8230; Now you only know I live in Wisconsin: 1 in 2,634,781. We all agree this is practically impossible, right? Think about it: all the houses on each road, in each city, in each county, in the entire state of Wisconsin. There is no way you could reasonably believe that you had any real chance of guessing my address given these odds. Yes, there is a chance you <em>could</em> guess it. That&#8217;s how probability works: the event can happen. But when you put it in a tangible context and you can begin to visualize the odds of guessing, it looks incredibly bleak.</p>
+<p>And be prepared to work. I&#8217;m here to help, but I&#8217;m not going to just do it for you. I&#8217;d like to teach you how to set up the new environment, how to migrate, and how to maintain it. Remember, part of my goal is that you&#8217;ll be comfortable enough with this new knowledge to share it with someone else eager to learn.</p>
 
-<p>Here&#8217;s the thing: your odds of guessing my home address, armed with only the knowledge that I live in Wisconsin, are still MUCH better than your odds of winning the Powerball lottery. Those odds, according to the official Powerball site, are 1 in 170 million. Let me write out those zeroes: 1 in 170,000,000. Did your eyes just glaze over? Let&#8217;s make it tangible again: <strong>You have better odds of guessing my home address if all you know is that I live in the United States.</strong> There are over 132,000,000 housing units in the US. Do you now see how ridiculously improbable it is that you will win the lottery?</p>
+<p>What&#8217;s in it for me? Not a whole lot. I&#8217;d like to advance the state of PHP. I&#8217;d like to see fewer people languish on shared hosting. Maybe a little shameless self-promotion too. I&#8217;m hoping to attract people interested in learning and get them to sign up for my newsletter using the form in the sidebar :)</p>
 
-<p>I hear some rebuttals: But I&#8217;m going to buy more than one ticket. Surely that will boost my odds.</p>
-
-<p>Yes, mathematically speaking, your odds will get better. But practically speaking, you still have no chance. Let&#8217;s put some of the earlier odds in the perspective of buying multiple lottery tickets:</p>
-
-<ul>
-<li>Increase your chances of winning to the same level as knowing I live in WI: buy 65 tickets</li>
-<li>Increase your chances of winning to the same level as knowing I live in Ozaukee County: buy 4,800 tickets</li>
-<li>Increase your chances of winning to the same level as knowing I live in Grafton: buy 37,000 tickets</li>
-<li>Increase your chances of winning to the same level as knowing I live on Falls Road: buy 1,750,000 tickets</li>
-</ul>
-
-
-<p>So if you want to make your chances of winning about the same chances of surviving a terminal diagnosis with 1 in 100 odds, just buy 1,750,000 tickets. Does that put in perspective? Oh, and Powerball tickets are $2 each, so that&#8217;s a $3.5 million investment to have the kind of odds that would send you home sobbing from the doctor. Depressed yet? You should be. That is the oppressive nature of mathematical facts.</p>
+<p>I&#8217;ll be selecting my first project the week of January 5, so don&#8217;t delay. Also, I&#8217;d really appreciate it if you can spread the word. Especially if you know someone running production code on PHP 5.2, please point them to this blog post.</p>
 </div>
 
 
@@ -155,21 +143,15 @@
   
 
 
-<time datetime="2012-11-28T19:54:00-06:00" pubdate data-updated="true">Nov 28<span>th</span>, 2012</time>
+<time datetime="2014-12-23T18:45:00-06:00" pubdate data-updated="true">Dec 23<span>rd</span>, 2014</time>
       
-
-<span class="categories">
-  
-    <a class='category' href='/categories/math/'>math</a>, <a class='category' href='/categories/opinion/'>opinion</a>
-  
-</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.joelclermont.com/2012/11/28/the-oppressive-nature-of-mathematical-facts/" data-via="jclermont" data-counturl="http://www.joelclermont.com/2012/11/28/the-oppressive-nature-of-mathematical-facts/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.joelclermont.com/2014/12/23/an-offer-of-help/" data-via="jclermont" data-counturl="http://www.joelclermont.com/2014/12/23/an-offer-of-help/" >Tweet</a>
   
   
   
@@ -178,10 +160,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/2012/10/13/30x500-orientation/" title="Previous Post: 30x500 Orientation">&laquo; 30x500 Orientation</a>
+        <a class="basic-alignment left" href="/2014/08/06/practice-makes-you-a-better-developer/" title="Previous Post: Practice Makes You a Better Developer">&laquo; Practice Makes You a Better Developer</a>
       
-      
-        <a class="basic-alignment right" href="/2012/12/25/pass-puppet-command-line-options-with-vagrant/" title="Next Post: Pass Puppet command line options with Vagrant">Pass Puppet command line options with Vagrant &raquo;</a>
       
     </p>
   </footer>
@@ -494,8 +474,8 @@ function mce_success_cb(resp){
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://www.joelclermont.com/2012/11/28/the-oppressive-nature-of-mathematical-facts/';
-        var disqus_url = 'http://www.joelclermont.com/2012/11/28/the-oppressive-nature-of-mathematical-facts/';
+        var disqus_identifier = 'http://www.joelclermont.com/2014/12/23/an-offer-of-help/';
+        var disqus_url = 'http://www.joelclermont.com/2014/12/23/an-offer-of-help/';
         var disqus_script = 'embed.js';
       
     (function () {
