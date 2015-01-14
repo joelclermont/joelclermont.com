@@ -8,20 +8,32 @@ footer: true
 Upcoming Events
 ---------------
 
-### September 2014 - [REST Fest](http://restfest.org)
+### April 2015 - TBA
 
-Haven't decided what to talk about yet. Probably Haskell, Idris or Escher. Something mind-blowing and not directly related to hypermedia.
-
-### September 2014 - [Madison PHP Conference](http://2014.madisonphpconference.com)
-
-I submitted three talks to the CFP. Waiting for speaker selection. 
-
-### November 2014 - [True North PHP](http://truenorthphp.ca)
-
-I submitted three talks to the CFP. Waiting for speaker selection.
+I'll be giving my Hack talk as a webinar. Details to be announced late January
 
 Previous Events
 ---------------
+
+### January 2015 - [Milwaukee PHP User Group](http://www.mkepug.org)
+
+Hack - Why Should I Care? [Slides](https://speakerdeck.com/jclermont/hack-why-should-i-care)
+
+### November 2014 - [True North PHP](http://truenorthphp.ca)
+
+Hack - Why Should I Care? [Slides](https://speakerdeck.com/jclermont/hack-why-should-i-care)
+
+In March, Facebook released a new language called Hack. It adds static typing, generics and lambda expressions on top of the rest of the familiar PHP syntax. In addition, it allows for gradual adoption of these features and continued interoperability with existing PHP code. But why should you care? Do you need to work in a massive environment like Facebook to reap the rewards of learning a new language? I'll make a strong case that Hack (and HHVM) are worth your time, give you a good demo of the language and show you how to get started. I don't work for Facebook, but I dove into Hack the day it was announced and I've continued to follow its development with great interest. I have applications in production running on Hack and I'm eager to show PHP developers of all skill levels why it's worth their time to give Hack a look.
+
+### September 2014 - [REST Fest](http://restfest.org)
+
+IFPS - The Permanent Web [Video](https://vimeo.com/107581073)
+
+Link rot is a problem we've all encountered on the web. You read a blog post someone wrote last year, which links to a paper. That link is now dead. There are also issues with versioning. Technical content should be updated, but how do we know when this content was last changed? What did the previous version(s) look like? The [Wayback Machine](https://archive.org/web/) is a noble initiative from the Internet Archive, but it can't solve this problem completely or efficiently.
+
+Enter IPFS, the Interplanetary File System. This project is a protocol, a file system and a mechanism for distributing and browsing content. Leveraging existing technologies like BitTorrent, Git and Kademlia it aims to solve the problems mentioned above, along with several others.
+
+I'll give a whirlwind tour of the project, its goals and its current state, with hopes of inspiring you to check it out and contribute your ideas.
 
 ### July 2014 - [WordCamp Milwaukee](http://2014.milwaukee.wordcamp.org)
 
