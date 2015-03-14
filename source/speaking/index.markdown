@@ -8,12 +8,16 @@ footer: true
 Upcoming Events
 ---------------
 
-### April 2015 - TBA
+### April 2015 - [Nomad PHP](https://nomadphp.com/2015/01/23/nomadphp-2015-04-eu/)
 
-I'll be giving my Hack talk as a webinar. Details to be announced late January
+I'll be giving my Hack talk as a webinar. Attend from anywhere in the world in your pajamas!
 
 Previous Events
 ---------------
+
+### March 2015 - [Midwest PHP](http://2015.midwestphp.org)
+
+Hack - Why Should I Care? [Slides](https://speakerdeck.com/jclermont/hack-why-should-i-care)
 
 ### January 2015 - [Milwaukee PHP User Group](http://www.mkepug.org)
 
