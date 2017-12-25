@@ -8,6 +8,7 @@ I have the habit of picking up a new programming language or two each year, not 
 
 <!--more-->
 Here is the five-second marketing pitch from Google regarding Go:
+
 > Go is an open source programming environment that makes it easy to build simple, reliable, and efficient software.
 
 Beyond that, one thing that kept coming up when I heard people talk about Go was how it handled concurrency. My focus lately has been on writing scalable web services, so concurrency is something that gets my attention.
