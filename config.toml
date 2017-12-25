@@ -1,7 +1,7 @@
-baseURL = "http://localhost:1313"
-languageCode = "en"
-title = "Hugo Blog"
-theme = "hugo-nuo"
+baseURL = "http://joelclermont.com"
+languageCode = "en-US"
+title = "Joel Clermont"
+theme = "nuo"
 enableRobotsTXT = true
 PygmentsCodeFences = true
 canonifyurls = true
