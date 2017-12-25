@@ -17,39 +17,45 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 
 # Initial site menu, you can extend menu with content.
 [[menu.main]]
-  name = "Home"
+  name = "Blog"
   weight = 10
   identifier = "home"
   url = "/"
 
 [[menu.main]]
-  name = "Works"
+  name = "Speaking"
   weight = 20
-  identifier = "works"
-  url = "https://github.com/laozhu"
+  identifier = "speaking"
+  url = "/speaking/"
+
+[[menu.main]]
+  name = "Contact"
+  weight = 30
+  identifier = "contact"
+  url = "/contact"
 
 [[menu.main]]
   name = "Tags"
-  weight = 30
+  weight = 40
   identifier = "tags"
   url = "/tags/"
 
 # Add your own params here
 [params]
-  author = "Ritchie Zhu"
+  author = "Joel Clermont"
   avatar = "/img/avatar.jpg"
-  seotitle = "Hugo Blog (SEO Version)"
-  subtitle = "~ Keep It Simple & Stupid ~"
-  description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
+  seotitle = "Joel Clermont | Milwaukee web developer"
+  subtitle = ""
+  description = "The personal site of Joel Clermont"
   paginate = 10
 
   # Choose your social networks
-  email = "name@domain.com"
-  github = "github_username"
-  twitter = "twitter_username"
-  linkedin = "linkedin_username"
-  weibo = "weibo_username"
-  wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
+  # email = ""
+  github = "joelclermont"
+  twitter = "jclermont"
+  # linkedin = "linkedin_username"
+  # weibo = "weibo_username"
+  # wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
   # facebook = "facebook_username"
   # google = "googlplus_id_number"
   # instagram = "instagram_username"
@@ -62,14 +68,6 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   # behance = "behance_username"
   # jsfiddle = "jsfiddle_username"
   # codepen = "codepen_username"
-  # zhihu = "zhihu_username"
-  # douban = "douban_username"
-  # bilibili = "bilibili_id_number"
-
-  # Changyan Comments (China Only)
-  changyan = false
-  changyanId = "cyt3toRiB"
-  changyanConf = "prod_0908b1cb9a581501753cce1ed074dbe3"
 
   # Google Webmaster
   # https://www.google.com/webmasters/
@@ -78,22 +76,3 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   # Bing Webmaster
   # https://www.bing.com/toolbox/webmaster/
   msValidate = "22596E34341DD1D17D6022C44647E587"
-
-  # Baidu Webmaster (China Only)
-  # https://zhanzhang.baidu.com/
-  # baiduSiteVerification = "MZ23SPxxfa"
-
-  # Sogou Webmaster (China Only)
-  # http://zhanzhang.sogou.com/
-  # sogouSiteVerification = "m2jktMQTZm"
-
-  # 360 Webmaster (China Only)
-  # http://zhanzhang.so.com/
-  # soSiteVerification = "b7ab3b4c2edbc856642004d1b8c27a91"
-
-  # Baidu Tongji (China Only)
-  # https://tongji.baidu.com/
-  # baiduTongji = "e21dc1e8a592188271b615159dc88af7"
-
-  # ICP Number (China Only)
-  # ICP = "苏ICP备16005986号-2"
