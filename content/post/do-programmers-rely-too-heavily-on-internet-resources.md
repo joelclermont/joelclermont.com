@@ -1,9 +1,9 @@
-+++
-title = "do programmers rely too heavily on internet resources"
-date = "2011-07-07"
-slug = "2011/07/07/do-programmers-rely-too-heavily-on-internet-resources"
-Categories = []
-+++
+---
+title: "Do programmers rely too heavily on internet resources?"
+date: "2011-07-07"
+slug: "2011/07/07/do-programmers-rely-too-heavily-on-internet-resources"
+tags: [opinion]
+---
 Let's face it: there is a *lot* to know as a programmer. There is the syntax of your preferred language(s), the syntax and function library of your database technology and you probably have some sort of framework or common library containing dozens, if not hundreds, of classes on top of that. This can be overwhelming at first, but most programmers recognize the folly in trying to memorize everything. The reality is you probably only need to commit a small percentage of that knowledge to memory. The rest can be assisted by your IDE, the documentation or an Internet search.
 
 Lately, though, I've begun wondering if programmers might take this notion too far and rely too heavily on their "extended memory." This thought occurred to me as I was browsing my Google search history. I saw a couple searches come up repeatedly every few weeks over the course of the last several months. Could it be possible that I was really searching time and time again for the same answer to the same question? It was a scary thought.

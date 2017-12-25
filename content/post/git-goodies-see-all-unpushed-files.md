@@ -1,9 +1,9 @@
-+++
-title = "git goodies see all unpushed files"
-date = "2012-08-25"
-slug = "2012/08/25/git-goodies-see-all-unpushed-files"
-Categories = []
-+++
+---
+title: "Git goodies: see all unpushed files"
+date: "2012-08-25"
+slug: "2012/08/25/git-goodies-see-all-unpushed-files"
+tags: [programming, git]
+---
 My preferred workflow is to be able to push changes into production using git. However, sometimes the project/server doesn't support this (yet).
 
 In these scenarios, it is very useful to be able to see which files have not yet been pushed to origin. Here is a nice one-liner that does exactly this:

@@ -1,9 +1,9 @@
-+++
-title = "day one with go"
-date = "2013-03-27"
-slug = "2013/03/27/day-one-with-go"
-Categories = []
-+++
+---
+title: "Day one with Go"
+date: "2013-03-27"
+slug: "2013/03/27/day-one-with-go"
+tags: [programming, Go]
+---
 I have the habit of picking up a new programming language or two each year, not necessarily to master them or even to write production code with them, but just to be exposed to new approaches to familiar problems. For the last few months, [two](https://twitter.com/donatj) [friends](https://twitter.com/henderjon) of mine have been urging me to try out [Go](http://golang.org), a relatively new language from Google. Since I had a 17-day vacation planned in Florida, I decided to give Go a try while I had abundant free time.
 
 Here is the five-second marketing pitch from Google regarding Go:

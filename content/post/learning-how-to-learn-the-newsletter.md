@@ -1,9 +1,9 @@
-+++
-title = "learning how to learn the newsletter"
-date = "2014-01-26"
-slug = "2014/01/26/learning-how-to-learn-the-newsletter"
-Categories = []
-+++
+---
+title: "Learning how to learn: the newsletter"
+date: "2014-01-26"
+slug: "2014/01/26/learning-how-to-learn-the-newsletter"
+tags: [news, learning, newsletter]
+---
 Software developers are, by necessity, lifelong learners. We are constantly facing new challenges, new technologies, new methods of solving problems. But how can we make our learning more efficient? This is a question that I've been pondering for at least four years.
 
 <!-- more -->

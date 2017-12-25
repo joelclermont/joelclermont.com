@@ -1,9 +1,9 @@
-+++
-title = "30x500 orientation"
-date = "2012-10-13"
-slug = "2012/10/13/30x500-orientation"
-Categories = []
-+++
+---
+title: "30x500 orientation"
+date: "2012-10-13"
+slug: "2012/10/13/30x500-orientation"
+tags: [news]
+---
 I recently enrolled in [30x500](http://unicornfree.com/30x500/), an online class designed to teach you how to launch successful products. I know how to run a consulting business (been there, done that) and I know how to build software applications, but I had no real idea how to build and launch a product. After [tweeting about my enrollment](https://twitter.com/jclermont/status/250635149824360449), a few people responded with curiosity, intrigued at the idea, but not yet ready to put down the money to join. [Today was orientation](https://twitter.com/jclermont/status/257103933389033472), so I decided to start documenting my experiences right away, not only for my own benefit, but also for those perhaps on the fence about taking this class themselves.
 <!-- more -->
 Orientation began with the instructors introducing themselves. [Amy Hoy](https://twitter.com/amyhoy) and [Alex Hillman](http://alexhillman.com), the course creators, were joined by [Brennan Dunn](https://twitter.com/brennandunn), a former alumnus of the course. Speaking of alumni, there were a lot of them taking the course again. One of the interesting aspects of 30x500 is that you can re-enroll in the course at any point in the future with no additional cost. Enrolling again isn't a sign that the course is ineffective, it's a sign of just how dense it is with information and how supportive and amazing the community is.

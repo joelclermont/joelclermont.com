@@ -1,9 +1,9 @@
-+++
-title = "date calculations are more complex than you think"
-date = "2011-09-14"
-slug = "2011/09/14/date-calculations-are-more-complex-than-you-think"
-Categories = []
-+++
+---
+title: "Date calculations are more complex than you think"
+date: "2011-09-14"
+slug: "2011/09/14/date-calculations-are-more-complex-than-you-think"
+tags: [programming, PHP]
+---
 Date and time manipulation is an area of programming that seems relatively simple on its surface, but lots of danger lurks just out of view. How hard could it possibly be to take a date/time and add 1 day to it? or 1 week? Piece of cake, right? You might do something like this:
 
 ``` php

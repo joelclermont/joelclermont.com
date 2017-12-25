@@ -1,9 +1,9 @@
-+++
-title = "wordpress plugin for contextual dynamic text"
-date = "2011-07-16"
-slug = "2011/07/16/wordpress-plugin-for-contextual-dynamic-text"
-Categories = []
-+++
+---
+title: "WordPress plugin for contextual dynamic text"
+date: "2011-07-16"
+slug: "2011/07/16/wordpress-plugin-for-contextual-dynamic-text"
+tags: [PHP]
+---
 WordPress has a concept called [shortcodes](http://codex.wordpress.org/Shortcode_API). They're very handy for inserting chunks of text or functionality with a simple text syntax. For example, one of the stock shortcodes allows you to type ```[gallery]``` in a post where you want a photo gallery to appear. But the real power is exposed when you start building your own shortcodes.
 <!-- more -->
 A while ago, Scott, our [Internet Marketing director](http://www.orionweb.net/author/scottorionweb-net/), asked me to whip up some code that would allow him to display a different phone number on a page based on how the visitor got to the site. If they came through Google AdWords, we would target their specific city and provide them a local number, but this also allowed us to track AdWords clickthroughs all the way to actual phone calls. Even better, when someone entered the site with this contextual data, we stored it in a cookie, so that if they visited the site in the future, we could continue to provide the most relevant phone number.

@@ -1,9 +1,9 @@
-+++
-title = "an offer of help"
-date = "2014-12-23"
-slug = "2014/12/23/an-offer-of-help"
-Categories = []
-+++
+---
+title: "An offer of help"
+date: "2014-12-23"
+slug: "2014/12/23/an-offer-of-help"
+tags: [php]
+---
 From time to time, I see people lamenting how many sites are "stuck" on old versions of PHP. Other times, I see people dealing with poor (shared) hosting environments, manual deploys with FTP, no local testing environment, and so on. Instead of sitting back and shaking my head, I've decided to do something about it.
 
 <!-- more -->

@@ -1,9 +1,9 @@
-+++
-title = "the importance of upgrading"
-date = "2011-08-17"
-slug = "2011/08/17/the-importance-of-upgrading"
-Categories = []
-+++
+---
+title: "The importance of upgrading"
+date: "2011-08-17"
+slug: "2011/08/17/the-importance-of-upgrading"
+tags: [opinion, security]
+---
 Most web sites use third-party code. This code comes in a few different flavors:
 
 * client-side libraries (jQuery, dojo)

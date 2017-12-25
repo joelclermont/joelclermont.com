@@ -1,9 +1,9 @@
-+++
-title = "practice makes you a better developer"
-date = "2014-08-06"
-slug = "2014/08/06/practice-makes-you-a-better-developer"
-Categories = []
-+++
+---
+title: "Practice makes you a better developer"
+date: "2014-08-06"
+slug: "2014/08/06/practice-makes-you-a-better-developer"
+tags: [learning, newsletter]
+---
 We've all heard the saying "practice makes perfect," but *how* you practice and *what* you practice are critical to making it an effective practice session. Consider some tips from a recent <a href="http://www.joelclermont.com/2014/01/26/learning-how-to-learn-the-newsletter/" target="_blank">"Learning how to Learn" newsletter</a>.
 
 <!-- more -->

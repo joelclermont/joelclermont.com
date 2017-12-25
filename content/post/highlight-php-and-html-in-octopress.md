@@ -1,9 +1,9 @@
-+++
-title = "highlight php and html in octopress"
-date = "2013-03-29"
-slug = "2013/03/29/highlight-php-and-html-in-octopress"
-Categories = []
-+++
+---
+title: "Highlight PHP and HTML in Octopress"
+date: "2013-03-29"
+slug: "2013/03/29/highlight-php-and-html-in-octopress"
+tags: [Octopress]
+---
 In [yesterday's post on Octopress](http://www.joelclermont.com/2013/03/28/better-php-highlighting-in-octopress/), I briefly mentioned the Pygments lexer documentation. One of the things I found incredibly useful was understanding all the available lexers and which language code would invoke them.
 
 For example, let's say you want to have a code block that highlights both PHP and HTML. How would you do this?

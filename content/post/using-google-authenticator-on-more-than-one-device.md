@@ -1,9 +1,9 @@
-+++
-title = "using google authenticator on more than one device"
-date = "2012-06-08"
-slug = "2012/06/08/using-google-authenticator-on-more-than-one-device"
-Categories = []
-+++
+---
+title: "Using Google Authenticator on more than one device"
+date: "2012-06-08"
+slug: "2012/06/08/using-google-authenticator-on-more-than-one-device"
+tags: [tech, security]
+---
 I take security pretty seriously. Some might even call me a little paranoid when it comes to password strength. It's no surprise that I love two-factor authentication then. Not only can I have a super strong password, but I can now require that I have a security token in my possession in order to login. In other words, even if you knew my 16 character random password for gmail, you still could not login without also having my security token.
 <!-- more -->
 The fact that Google supports two-factor authentication is great. If you have not enabled this on your Google account yet, please [go do it right now](http://googleblog.blogspot.com/2011/02/advanced-sign-in-security-for-your.html).

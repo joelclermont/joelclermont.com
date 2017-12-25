@@ -1,9 +1,9 @@
-+++
-title = "better php highlighting in octopress"
-date = "2013-03-28"
-slug = "2013/03/28/better-php-highlighting-in-octopress"
-Categories = []
-+++
+---
+title: "Better PHP highlighting in Octopress"
+date: "2013-03-28"
+slug: "2013/03/28/better-php-highlighting-in-octopress"
+tags: [Octopress]
+---
 I recently moved my blog from WordPress to [Octopress](http://octopress.org). The experience was painless and I wish I would have done it much earlier. One thing that puzzled me was how Octopress handled PHP syntax highlighting. It seemed that it would only work if every code block started with the opening `<?php` tag. I found this quite annoying, especially when I only want to show one line of code.
 
 <!-- more -->
