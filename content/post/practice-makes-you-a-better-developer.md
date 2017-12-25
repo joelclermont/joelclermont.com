@@ -6,7 +6,7 @@ tags: [learning, newsletter]
 ---
 We've all heard the saying "practice makes perfect," but *how* you practice and *what* you practice are critical to making it an effective practice session. Consider some tips from a recent <a href="http://www.joelclermont.com/2014/01/26/learning-how-to-learn-the-newsletter/" target="_blank">"Learning how to Learn" newsletter</a>.
 
-<!-- more -->
+<!--more-->
 ## There are no shortcuts to skill mastery
 
 It may vary somewhat from region to region, but in general, software developers are in fairly high demand in the job market. As a result, it is not uncommon for a developer to get regular unsolicited requests to apply for open positions. Even though I'm not looking for work, I'll sometimes read the job descriptions out of curiosity. Perhaps you have done the same. I've observed a trend in these job announcements: on average, only two skill levels are being pursued, the novice and the expert.

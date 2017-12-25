@@ -15,7 +15,7 @@ $newEventTime = $eventTime + (24 * 60 * 60);
 //expects 2011-09-16 and will USUALLY work
 echo date('Y-m-d', $newEventTime);
 ```
-<!-- more -->
+<!--more-->
 We've likely all seen code like that and probably written some ourselves. Here's another way to do it, this time using the built in date/time functionality in PHP.
 
 ``` php

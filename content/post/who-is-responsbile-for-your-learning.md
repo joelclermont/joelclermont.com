@@ -6,7 +6,7 @@ tags: [learning, newsletter]
 ---
 Are you expecting too much from an author, speaker or teacher? Take charge of your own learning instead. Consider some tips from a recent <a href="http://www.joelclermont.com/2014/01/26/learning-how-to-learn-the-newsletter/" target="_blank">"Learning how to Learn" newsletter</a>.
 
-<!-- more -->
+<!--more-->
 ## Effective learning is not passive
 
 My goal with this newsletter is to provide an idea, tip or strategy that you can

@@ -8,7 +8,7 @@ In [yesterday's post on Octopress](http://www.joelclermont.com/2013/03/28/better
 
 For example, let's say you want to have a code block that highlights both PHP and HTML. How would you do this?
 
-<!-- more -->
+<!--more-->
 If you simply use the `php` language token in your code block, you will get something like this:
 
 ``` php

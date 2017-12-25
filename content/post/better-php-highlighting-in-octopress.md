@@ -6,7 +6,7 @@ tags: [Octopress]
 ---
 I recently moved my blog from WordPress to [Octopress](http://octopress.org). The experience was painless and I wish I would have done it much earlier. One thing that puzzled me was how Octopress handled PHP syntax highlighting. It seemed that it would only work if every code block started with the opening `<?php` tag. I found this quite annoying, especially when I only want to show one line of code.
 
-<!-- more -->
+<!--more-->
 But Octopress is open source, so I decided to fix it. The first thing to understand is that Octopress is really just a framework that sits on top of the static site generator [Jekyll](http://jekyllrb.com). In addition, Jekyll leverages many existing tools and Ruby gems to do its work. Digging through these layers, I discovered that the [Pygments](http://pygments.org) library was responsible for syntax highlighting within code blocks.
 
 In the Pygments documentation, they list all the different language lexers they support. This was interesting to me for two reasons. First, it shows the "short code" to use in your code block to trigger a certain type of language. Some are obvious, like PHP (short code php), but others were not quite so easy to guess. Second, some lexers accept options that affect their behavior. The PhpLexer accepts a `startinline` option which tells Pygments whether or not to require the `<?php` tag to begin syntax highlighting. For reasons unknown to me, the default is `false`.

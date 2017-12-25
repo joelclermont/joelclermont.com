@@ -12,7 +12,7 @@ Most web sites use third-party code. This code comes in a few different flavors:
 * entire applications (WordPress, Joomla)
 
 As a developer, when you selected one or more of these tools, you hopefully picked a project that was active and well supported. This means there will inevitably be upgrades to that third-party code. Some of these upgrades add features, but most upgrades also include bug fixes and security patches.
-<!-- more -->
+<!--more-->
 Blindly ignoring these updates is an (all too common) option that developers take once their site is launched and "done." This can get you into a lot of trouble with a client when one of those unpatched tools is used as an attack vector to compromise the site or server. Sticking your head in the sand is rarely the right decision.
 
 But the other factor to consider is that upgrading these tools takes time. In addition, it's not uncommon for an upgrade to break your code. Maybe it's a purposeful break with backward compatibility or maybe it's an unintended consequence of how you integrated with that third-party code. This is one big reason why some developers ignore the upgrades, or at the very least, ignore them as long as possible.

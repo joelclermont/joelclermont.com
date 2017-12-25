@@ -6,7 +6,7 @@ tags: [php]
 ---
 From time to time, I see people lamenting how many sites are "stuck" on old versions of PHP. Other times, I see people dealing with poor (shared) hosting environments, manual deploys with FTP, no local testing environment, and so on. Instead of sitting back and shaking my head, I've decided to do something about it.
 
-<!-- more -->
+<!--more-->
 I've moved all my sites off of shared servers. Everything has a packaged environment setup with Vagrant and Ansible, code is predictibly deployed with git, PHP 5.6 all around, updates and maintenance are non-events. I've also said goodbye to Apache and moved everything to Nginix. PHP has been replaced on several sites with HHVM. The changes aren't just for change's sake, but they've made my clients happier, my sites run better and working with them more enjoyable.
 
 I'd like to help spread that joy. My time is fairly limited, but I'm going to set aside time each month to help one developer make the jump from shared hosting to a virtual machine, from an unpredictable testing environment to Vagrant, from PHP 5.2 or 5.3 to PHP 5.6. My hope is that as I help a small number of developers to make that leap, they in turn can "pay it forward" and help someone else make the leap. If the idea spreads enough, maybe we'll see usage of old PHP versions start to disappear. A guy can dream, can't he?

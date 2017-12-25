@@ -6,7 +6,7 @@ tags: [news, learning, newsletter]
 ---
 Software developers are, by necessity, lifelong learners. We are constantly facing new challenges, new technologies, new methods of solving problems. But how can we make our learning more efficient? This is a question that I've been pondering for at least four years.
 
-<!-- more -->
+<!--more-->
 I can trace my fascination with this subject back to a book I read in 2009. The book was called <a href="http://pragprog.com/book/ahptl/pragmatic-thinking-and-learning" target="_blank">Pragmatic Thinking & Learning</a>. In it, the author pulled together extensive research from the fields of neuroscience, learning/behavioral theory and biology, applying it to challenges we face as software developers. It gave me insights into the process of learning, the actual mechanics of what happens inside the brain. This is the only non-fiction book that I have read twice in a single year. It is that good.
 
 After a couple of years of studying and applying what I had learned from the book, I was convinced that I had not only become more efficient in acquiring new knowledge and skills, but I also had a much better strategy at identifying what things I _needed_ to learn. In addition to identifying my own skill gaps, I was able to look at the vast array of languages, tools and technologies and analyze what new skills would benefit me the most and support my specific goals.

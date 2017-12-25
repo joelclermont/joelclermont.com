@@ -6,12 +6,12 @@ tags: [programming, Go]
 ---
 I have the habit of picking up a new programming language or two each year, not necessarily to master them or even to write production code with them, but just to be exposed to new approaches to familiar problems. For the last few months, [two](https://twitter.com/donatj) [friends](https://twitter.com/henderjon) of mine have been urging me to try out [Go](http://golang.org), a relatively new language from Google. Since I had a 17-day vacation planned in Florida, I decided to give Go a try while I had abundant free time.
 
+<!--more-->
 Here is the five-second marketing pitch from Google regarding Go:
 > Go is an open source programming environment that makes it easy to build simple, reliable, and efficient software.
 
 Beyond that, one thing that kept coming up when I heard people talk about Go was how it handled concurrency. My focus lately has been on writing scalable web services, so concurrency is something that gets my attention.
 
-<!-- more -->
 To get started, I worked through the interactive tutorial at [tour.golang.org](http://tour.golang.org). If you're even a little curious about Go, I highly recommend it. It works entirely in the browser, so there's nothing to install, and it has a nice mix of examples and fun, simple, but useful exercises to try on your own.
 
 It stays at a fairly high level, just giving you an overview of the language, but where it makes sense, it links to more detailed docs on the subject being discussed. One small criticism: It would be nice if they had some sample solutions to the exercises. The exercises include tests, so you know you solved the problem, but as someone new to the language, I'd like to see an idiomatic Go solution.

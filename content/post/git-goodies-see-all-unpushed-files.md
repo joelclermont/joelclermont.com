@@ -7,7 +7,7 @@ tags: [programming, git]
 My preferred workflow is to be able to push changes into production using git. However, sometimes the project/server doesn't support this (yet).
 
 In these scenarios, it is very useful to be able to see which files have not yet been pushed to origin. Here is a nice one-liner that does exactly this:
-<!-- more -->
+<!--more-->
 ``` bash
 git log origin/master..master --name-only --pretty="format:" | sort | uniq
 ```
