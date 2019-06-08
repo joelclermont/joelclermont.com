@@ -1,3 +1,3 @@
 [submodule "themes/nuo"]
 	path = themes/nuo
-	url = git@github.com:joelclermont/hugo-nuo.git
+	url = https://github.com/joelclermont/hugo-nuo.git
