@@ -1,4 +1,4 @@
-baseURL = "http://joelclermont.com"
+baseURL = "/"
 languageCode = "en-US"
 title = "Joel Clermont"
 theme = "nuo"
