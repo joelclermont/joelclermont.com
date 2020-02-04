@@ -32,7 +32,7 @@ Like any responsible developer, after adding the new Scout APM package to my pro
 
 After a few days running in prod on my first project, I had enough confidence to roll out Scout APM on a second project. Shortly after doing so, I started getting very sporadic `OutOfMemoryException` warnings thrown by some background jobs. This was puzzling to me since the jobs finished successfully and were fairly efficient (running in less than one second consistently), not doing anything memory-intensive. This time, I had some back and forth discussion with Scout APM support in their Slack channel. Despite this being impossible for me to reproduce, I was pleasantly surprised that they promised to dig into it and figure it out. Once again, Scout APM delivered a [bug fix](https://github.com/scoutapp/scout-apm-php/issues/157) that solved my issue!
 
-These are just two of the very positive experiences I had with Scout APM's support. I'd like to give a special shout-out to [James Titcumb](https://twitter.com/asgrim) and [Chris Schneider](https://twitter.com/watchchrislearn) for their excellent support in Slack, on Github, and via email.
+These are just two of the very positive experiences I had with Scout APM's support. I'd like to give a special shout-out to [James Titcumb](https://twitter.com/asgrim) and [Chris Schneider](https://twitter.com/BlurredWeasel) for their excellent support in Slack, on Github, and via email.
 
 ## Conclusion
 
