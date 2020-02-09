@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: joelclermont.com
+Token: 5ba11f26047f83ef00b0499562213af8ebee2f29dfaa42833a948af4d68721a3
