@@ -6,14 +6,13 @@ comments: false
 ---
 # Upcoming Events
 
-Want me to speak at your event? [Send me a note](/contact).
+I'm taking some time off from speaking at conferences. Would you like me to speak at an online event? [Send me a note](/contact).
+
+# Previous Events
 
 ### January 2018 - [Chicago PHP meetup](https://www.meetup.com/Chicago-PHP-User-Group/)
 
 Give Elm a Chance!
-
-
-# Previous Events
 
 ### August 2017 - [thatConference](https://www.thatconference.com)
 

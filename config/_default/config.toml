@@ -26,10 +26,10 @@ hrefTargetBlank = true
   url = "/"
 
 [[menu.main]]
-  name = "Speaking"
+  name = "Podcast"
   weight = 20
-  identifier = "speaking"
-  url = "/speaking/"
+  identifier = "podcast"
+  url = "https://show.nocompromises.io/"
 
 [[menu.main]]
   name = "Contact"
@@ -42,6 +42,12 @@ hrefTargetBlank = true
   weight = 40
   identifier = "tags"
   url = "/tags/"
+
+[[menu.main]]
+  name = "Speaking"
+  weight = 50
+  identifier = "speaking"
+  url = "/speaking/"
 
 # Add your own params here
 [params]
