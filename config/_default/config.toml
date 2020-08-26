@@ -10,7 +10,7 @@ canonifyurls = true
 disqusShortname = "jclermont"
 
 # Google Analytics UA number
-googleAnalytics = "UA-21763858-1"
+# googleAnalytics = "UA-21763858-1"
 
 # Copyright of your post
 copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
