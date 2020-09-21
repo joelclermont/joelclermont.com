@@ -8,7 +8,7 @@ There are times you may want to update a single Composer package without updatin
 
 <!--more-->
 
-Recently, I've been testing the newly-released [ScoutAPM](https://scoutapm.com) support for Laravel. (More on that in a future blog post.) I ran into an [issue with Blade directives from third-party packages](https://github.com/scoutapp/scout-apm-laravel/issues/45). Two days later, they published a new version which fixed the bug, hooray!
+Recently, I've been testing the newly-released [ScoutAPM](https://scoutapm.com) support for Laravel. (Updated: [Scout APM review for Laravel]({{< ref "scout-apm-review-for-laravel.md" >}})) I ran into an [issue with Blade directives from third-party packages](https://github.com/scoutapp/scout-apm-laravel/issues/45). Two days later, they published a new version which fixed the bug, hooray!
 
 In order to test this, I needed to upgrade the `scoutapm/scout-apm-laravel` package from version 1.2.1 to version 1.2.3. Since this is a patch release, it should be pretty straightforward to update this one package: `composer update scoutapm/scout-apm-laravel`, right? Let's try it using the handy `--dry-run` option:
 

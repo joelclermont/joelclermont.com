@@ -17,7 +17,7 @@ The act of writing out each thing you work on forces you to recognize how freque
 
 Another productivity boost comes from looking back at the end of the day and seeing where you spent your time. Was it all on unplanned activities or administrative tasks? Or was it mostly on your planned goals for the day? It's easy to be "busy" all day but get very little done that's important. Seeing that in journal form can be very eye-opening.
 
-> Side point: listing out your 3 most important tasks for the day pairs really nicely with the journal. More on task planning in a future post.
+> Side point: listing out your 3 most important tasks for the day pairs really nicely with the journal. More on task planning in a future post. (Updated: [What are your important tasks today?]({{< ref "what-are-the-important-tasks-today.md" >}}))
 
 When I decided I wanted to start blogging more, I added a "Blog Ideas" section to my journal. Each day as I helped a co-worker with a question, learned something new, or was curious about something, I'd jot down a new topic idea. Now I have so many topics to choose from when I write a new blog post.
 

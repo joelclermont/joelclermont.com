@@ -28,4 +28,4 @@ When arranging this test, we'll use factories to generate our two teams, along w
 
 Seeing these explicit values in both our factory calls and our assertions makes it crystal clear what we're expecting to happen.
 
-I've always liked trilogies, so I think I'll share one more example in a future post.
+I've always liked trilogies, so I think I'll share one more example in a [future post]({{< ref "one-more-primary-key-example.md" >}}).

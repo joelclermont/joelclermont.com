@@ -8,7 +8,7 @@ The forthcoming release of macOS 11 (Big Sur) provides one more compelling reaso
 
 <!--more-->
 
-There were already a number of great reasons to pay for Fathom Analytics, and I'll do a full review in a future post, but today I want to focus on some upcoming changes to macOS and iOS which makes the move an even better decision.
+There were already a number of great reasons to pay for Fathom Analytics, and I'll do a full review in a future post, but today I want to focus on some upcoming changes to macOS and iOS which makes the move an even better decision. (Updated: [Why I switched to Fathom Analytics]({{< ref "why-i-switched-to-fathom-analytics.md" >}}))
 
 Both macOS and iOS ship with a new version of Safari. One of the features Apple has been promoting is a per-site "Privacy Report". It's a little bit more prominently featured on macOS, but on both platforms the end result is the same: website trackers (like Google Analytics) are blocked.
 

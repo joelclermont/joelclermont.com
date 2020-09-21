@@ -63,4 +63,4 @@ This test will now catch our subtle join bug. If you're anything like me, you li
 
 **Why do you want to see the actual number?** Seeing `482` as the expected value makes it crystal clear what value I'm expecting. If I instead use `$show->id` as my expected value, there's a slim chance that something else in my test setup or execution will give it a different value. That's obscured if I rely on the model property. Seeing `482` leaves no room for doubt.
 
-In a future post, I'll share other examples of when an explicit primary key value will make your tests better.
+In a future post, I'll share [other examples of when an explicit primary key value will make your tests better]({{< ref "another-use-case-for-explicit-primary-key-values.md" >}}). (Updated with link)
