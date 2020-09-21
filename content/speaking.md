@@ -100,7 +100,7 @@ A Modern Approach to PHP Development [Slides](https://speakerdeck.com/jclermont/
 
 There have been some great advancements in the PHP ecosystem in the last couple years. Come learn about two tools that could make your projects more productive and enjoyable. The first is Composer, a modern dependency manager for PHP. The second is Silex, a small, lightweight framework that gets out of your way, but also gives you a great upgrade path as your needs change and grow over time. I will also discuss Vagrant, a great tool for provisioning a reliable development environment for you and your team.
 
-### April 2013 - [Tampa Bay PHP meetup](http://www.tbphp.org)
+### April 2013 - Tampa Bay PHP meetup
 
 REST APIs: The "R" is not for religious
 
