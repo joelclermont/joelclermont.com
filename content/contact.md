@@ -4,7 +4,7 @@ date: 2017-12-25T11:24:02-06:00
 layout: "about"
 comments: false
 ---
-<form name="newcontact" method="POST" action="/contact-success" data-netlify="true">
+<form name="contact" method="POST" action="/contact-success" data-netlify="true">
   <p>
     <label for="message">Message</label>
     <textarea name="message" rows="5" required style="display:block; width:80%"></textarea>
