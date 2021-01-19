@@ -4,7 +4,7 @@ title = "Joel Clermont"
 theme = "nuo"
 enableRobotsTXT = true
 PygmentsCodeFences = true
-canonifyurls = true
+canonifyurls = false
 
 # Disqus Username
 # disqusShortname = "jclermont"
