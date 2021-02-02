@@ -2,6 +2,7 @@
 title: "Covering Value Ranges in Your Tests"
 tags: ["Laravel", "testing"]
 date: 2020-10-29T11:16:49-05:00
+cover: /images/laravel-testing.png
 ---
 
 For me, one of the main reasons I write tests is to have confidence that my code is working as expected and to catch myself if (or should I say when?) I break something in the future. I often think of testing the happy path and the failure path, but I'll share some additional things I like to test in between that further boost my test confidence.

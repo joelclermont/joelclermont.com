@@ -2,6 +2,7 @@
 title: "Toggling Groups of Related Fields in Update Request"
 tags: ["laravel", "forms"]
 date: 2020-09-21T13:17:39-05:00
+cover: /images/laravel-tip.png
 ---
 
 Let's say you have a form with two groups of related, but mutually exclusive, fields. When you `POST` and store a new record, no problem, only the right fields are sent in. But what do you do when that record is updated? How can you cleanly handle this?

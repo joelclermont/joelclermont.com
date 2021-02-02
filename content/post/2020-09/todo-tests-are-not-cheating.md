@@ -2,6 +2,7 @@
 title: "Todo Tests Are Not Cheating"
 tags: ["testing"]
 date: 2020-09-08T11:17:49-05:00
+cover: /images/laravel-testing.png
 ---
 
 Why would you ever mark a test as `todo`? Isn't that devaluing your tests? Not at all! I'll share some ways I use `todo` tests effectively.

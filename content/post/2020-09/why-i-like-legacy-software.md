@@ -2,6 +2,7 @@
 title: "Why I Enjoy Working on Legacy Software Applications"
 tags: ["opinion", "refactoring"]
 date: 2020-09-17T18:33:38-05:00
+cover: /images/opinion.png
 ---
 
 Today I realized something about myself, I actually *really* enjoy working in legacy applications. This may seem odd. It's common to hear complaints about "how bad this old code is", so why would I enjoy working in a difficult environment?

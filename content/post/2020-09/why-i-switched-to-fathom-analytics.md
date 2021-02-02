@@ -2,6 +2,7 @@
 title: "Why I Switched to Fathom Analytics"
 tags: ["fathom", "privacy"]
 date: 2020-09-18T07:28:50-05:00
+cover: /images/privacy-security.png
 ---
 
 Google Analytics is free and has every imaginable feature you might ever want. So why would I switch to paying for Fathom Analytics?

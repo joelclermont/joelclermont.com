@@ -2,6 +2,7 @@
 title: "Use Randomness Intentionally in Testing"
 tags: ["testing", "laravel"]
 date: 2020-09-16T14:56:51-05:00
+cover: /images/laravel-testing.png
 ---
 
 Randomness can serve a useful purpose in factories, seeders, and tests. There are times it can cause issues though. Here are some rules I think about when introducing randomness into a test.

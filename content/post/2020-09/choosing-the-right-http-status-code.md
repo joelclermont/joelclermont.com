@@ -2,6 +2,7 @@
 title: "Choosing the Right HTTP Status Code"
 tags: ["http", "apis"]
 date: 2020-09-09T09:05:24-05:00
+cover: /images/opinion.png
 ---
 
 Do you ever get frustrated when you call an API and it sends back an inappropriate HTTP status code? I never want my APIs to be a source of frustation, so I'll share a recent debate I had with myself as to which status code was the best.

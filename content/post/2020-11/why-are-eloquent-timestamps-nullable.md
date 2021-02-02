@@ -2,6 +2,7 @@
 title: "Why Are Eloquent Timestamps Nullable?"
 tags: ["laravel", "eloquent", "mysql"]
 date: 2020-11-17T12:40:12-06:00
+cover: /images/laravel-tip.png
 ---
 
 Recently I was creating a new table and using the `timestamps` helper in the migration. I noticed something that seemed wrong, so I dug a little deeper and learned something new about Laravel and MySQL.

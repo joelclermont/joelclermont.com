@@ -2,6 +2,7 @@
 title: "Removing Disqus From the Site"
 tags: ["privacy"]
 date: 2020-11-03T07:05:23-06:00
+cover: /images/privacy-security.png
 ---
 
 Many years ago, when I moved my blog from WordPress to [Hugo](https://gohugo.io), I was very pleased to find Disqus as a way to still have comments on a statically generated site. Today, however, I have completely removed Disqus from this site.

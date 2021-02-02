@@ -2,6 +2,7 @@
 title: "New Laravel Migration Shortcuts for Foreign Keys"
 tags: ["laravel", "migrations"]
 date: 2020-09-10T17:23:49-05:00
+cover: /images/laravel-tip.png
 ---
 
 While everyone is loving the features in the new Laravel 8 release this week, I just discovered something cool I missed in Laravel 7.

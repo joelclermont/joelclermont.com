@@ -2,6 +2,7 @@
 title: "What Are Your Important Tasks Today?"
 tags: ["opinion", "productivity"]
 date: 2020-09-12T18:30:27-05:00
+cover: /images/productivity.png
 ---
 
 Many of us have a seemingly endless backlog of tasks we could be doing. How can you figure out what's most important, and use that decision to bring focus to your day?

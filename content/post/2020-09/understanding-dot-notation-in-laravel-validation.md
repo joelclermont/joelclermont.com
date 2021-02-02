@@ -2,6 +2,7 @@
 title: "Understanding Dot Notation in Laravel Validation"
 tags: ["laravel", "validation"]
 date: 2020-09-19T08:03:30-05:00
+cover: /images/laravel-tip.png
 ---
 
 Laravel validation supports "dot notation" to let you validate arrays in a request. But what if your field name contains a literal dot?

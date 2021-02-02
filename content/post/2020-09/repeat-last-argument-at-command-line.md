@@ -2,6 +2,7 @@
 title: "Repeat Last Argument at Command Line"
 tags: ["cli", "zsh"]
 date: 2020-09-13T12:04:02-05:00
+cover: /images/tools.png
 ---
 
 Here's a handy tip when you want to rename a file with a long path/name and don't want to retype it twice.

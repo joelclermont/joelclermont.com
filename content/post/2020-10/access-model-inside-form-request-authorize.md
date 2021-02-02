@@ -2,6 +2,7 @@
 title: "Access the Model Inside a Form Request"
 tags: ["Laravel"]
 date: 2020-10-21T11:50:28-05:00
+cover: /images/laravel-testing.png
 ---
 
 Laravel's form requests really help reduce the amount of code in your controllers, especially around validation. Another convenience method they offer is authorization. I recently came across a small tip which isn't explicitly stated in the docs and thought I'd share it.

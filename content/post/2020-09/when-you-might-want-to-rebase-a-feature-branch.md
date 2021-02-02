@@ -2,6 +2,7 @@
 title: "When You Might Want to Rebase a Feature Branch"
 tags: ["git", "opinion"]
 date: 2020-09-14T19:09:36-05:00
+cover: /images/tools.png
 ---
 
 Is `git rebase` a command to be avoided at all cost? I say no. Here's one use case where I reach for `rebase` instead of `merge`.

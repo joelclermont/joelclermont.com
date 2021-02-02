@@ -2,6 +2,7 @@
 title: "Benefits of Keeping a Work Journal"
 tags: ["habits", "opinion", "productivity"]
 date: 2020-09-11T10:35:54-05:00
+cover: /images/productivity.png
 ---
 
 Many developers feel overwhelmed with the amount of work they want to get done each day. Or they feel pulled in multiple directions and struggle to make progress on the important things. I can totally relate! One thing that helped me is keeping a work journal.
