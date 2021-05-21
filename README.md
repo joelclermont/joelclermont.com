@@ -6,9 +6,12 @@ First, make sure to clone the repo with submodules. The theme is currently track
 
 `hugo server` from the repo root should build and server on http://localhost:1313
 
-`hugo new post/blog-post-title.md` to write a new post
-    set tags
-    remove author, cover, draft metadata
+## Writing a new post
+
+- `hugo new post/YYYY-MM/blog-post-title.md` to write a new post
+- set tags
+- set a cover image (look in static/images for available)
+- remove author, draft metadata
 
 If you have images, put them in `static/images/blog-post-title`.
 
