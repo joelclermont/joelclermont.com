@@ -4,3 +4,7 @@
 
 [context.production.environment]
   HUGO_VERSION = "0.55.6"
+
+[[redirects]]
+  from = "/2011/09/15/date-calculations-are-more-complex-than-you-think/"
+  to = "/post/2011/09/14/date-calculations-are-more-complex-than-you-think/"
