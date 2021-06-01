@@ -32,6 +32,12 @@ hrefTargetBlank = true
   url = "https://show.nocompromises.io/"
 
 [[menu.main]]
+  name = "Books"
+  weight = 25
+  identifier = "books"
+  url = "https://gumroad.com/nocompromises"
+
+[[menu.main]]
   name = "Contact"
   weight = 30
   identifier = "contact"
