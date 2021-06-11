@@ -5,7 +5,7 @@ slug: "2014/05/02/who-is-responsbile-for-your-learning"
 tags: [learning, newsletter]
 ---
 
-Are you expecting too much from an author, speaker or teacher? Take charge of your own learning instead. Consider some tips from a recent <a href="http://www.joelclermont.com/2014/01/26/learning-how-to-learn-the-newsletter/" target="_blank">"Learning how to Learn" newsletter</a>.
+Are you expecting too much from an author, speaker or teacher? Take charge of your own learning instead. Consider some tips from a recent <a href="post/2014/01/26/learning-how-to-learn-the-newsletter/" target="_blank">"Learning how to Learn" newsletter</a>.
 
 <!--more-->
 
