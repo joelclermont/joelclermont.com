@@ -4,14 +4,16 @@ date: "2013-03-29"
 slug: "2013/03/29/highlight-php-and-html-in-octopress"
 tags: [Octopress]
 ---
-In [yesterday's post on Octopress](http://www.joelclermont.com/2013/03/28/better-php-highlighting-in-octopress/), I briefly mentioned the Pygments lexer documentation. One of the things I found incredibly useful was understanding all the available lexers and which language code would invoke them.
+
+In [yesterday's post on Octopress](/post/2013/03/28/better-php-highlighting-in-octopress), I briefly mentioned the Pygments lexer documentation. One of the things I found incredibly useful was understanding all the available lexers and which language code would invoke them.
 
 For example, let's say you want to have a code block that highlights both PHP and HTML. How would you do this?
 
 <!--more-->
+
 If you simply use the `php` language token in your code block, you will get something like this:
 
-``` php
+```php
 <?php $links = $this->getNav(); ?>
 <ul id="navigation">
     <?php foreach ($links as $l): ?>
@@ -22,7 +24,7 @@ If you simply use the `php` language token in your code block, you will get some
 
 Notice how the HTML is not higlighted, but the PHP is. If you used the `html` language token, you would get the reverse problem. But, if you search the [Pygments lexer documentation](http://pygments.org/docs/lexers/), you will find the `HtmlPhpLexer`. It first attempts to highlight all the PHP code, and then passes the remaining text to the `HtmlLexer`. (Side note: the `HtmlLexer` also parses CSS and Javascript). And since we're reading the docs, there is no need to guess as to which language token will invoke this parser. It specifies the short name as `html+php`.
 
-``` html+php
+```html+php
 <?php $links = $this->getNav(); ?>
 <ul id="navigation">
     <?php foreach ($links as $l): ?>

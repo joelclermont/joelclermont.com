@@ -4,9 +4,11 @@ date: "2013-03-27"
 slug: "2013/03/27/day-one-with-go"
 tags: [programming, Go]
 ---
+
 I have the habit of picking up a new programming language or two each year, not necessarily to master them or even to write production code with them, but just to be exposed to new approaches to familiar problems. For the last few months, [two](https://twitter.com/donatj) [friends](https://twitter.com/henderjon) of mine have been urging me to try out [Go](http://golang.org), a relatively new language from Google. Since I had a 17-day vacation planned in Florida, I decided to give Go a try while I had abundant free time.
 
 <!--more-->
+
 Here is the five-second marketing pitch from Google regarding Go:
 
 > Go is an open source programming environment that makes it easy to build simple, reliable, and efficient software.
@@ -27,7 +29,7 @@ Since Go is a compiled language, you'd expect there to be some compile-time safe
 
 C# has "out" params and in other languages, like PHP, it's common to wrap multiple return values in an array. I really like how Go handles this though. Right in the function declaration, after the input parameters, you can specify the types of one (or more) return values
 
-``` go
+```go
 func swap(x, y string) (string, string) {
     return y, x
 }
@@ -35,7 +37,7 @@ func swap(x, y string) (string, string) {
 
 Even better, you can name these return values, providing an alternate syntax. Note how I just assign to the return vars and then use an empty `return` statement.
 
-``` go
+```go
 func split(sum int) (x, y int) {
     x = sum * 4 / 9
     y = sum - x
@@ -47,7 +49,7 @@ func split(sum int) (x, y int) {
 
 This one seemed a little odd to me at first, too, but like the compile-time checks, it grew on me. There are no `foreach`, `do` or `while` loops. There is only `for`. But you can easily emulate a `while` loop by omitting the pre and post condition checks.
 
-``` go
+```go
 func main() {
     sum := 1
     for sum < 1000 {
@@ -59,7 +61,7 @@ func main() {
 
 Using the `range` form also gives you something like a foreach.
 
-``` go
+```go
 var pow = []int{1, 2, 4, 8, 16, 32, 64, 128}
 
 func main() {
@@ -71,7 +73,7 @@ func main() {
 
 In the above example, `i` becomes the 0-based index of your loop and `v` is the current value. If you only need the index or the value, you can omit whichever one you don't need.
 
-``` go
+```go
 pow := make([]int, 10)
 // you could also write this as i, _ but it's unnecessary
 for i := range pow {
@@ -92,7 +94,7 @@ This is one area I need to understand better and use more before I can form a mo
 
 When pulling values out of a map, you can also return a second boolean value indicating whether or not that key existed. This often results in more terse code than you would have in other languages where you need to test for the key first before trying to fetch the value.
 
-``` go
+```go
 m := make(map[string]int)
 
 m["x"] = 10
@@ -104,9 +106,10 @@ v, ok := m["x"]
 v, ok := m["z"]
 //v = 0 (the default value for an int), ok = false
 ```
+
 ## Interfaces
 
-Interfaces can be used *without* needing to declare that your ~~class~~ type implements an interface. Go is smart enough to see that your ~~class~~ type conforms to the interface and figures that out for you. Let this sink in for a bit and you'll see how genius it is. If my brief description wasn't enough for you, read this [post on the Go blog](http://golangtutorials.blogspot.com/2011/06/interfaces-in-go.html) for more details.
+Interfaces can be used _without_ needing to declare that your ~~class~~ type implements an interface. Go is smart enough to see that your ~~class~~ type conforms to the interface and figures that out for you. Let this sink in for a bit and you'll see how genius it is. If my brief description wasn't enough for you, read this [post on the Go blog](http://golangtutorials.blogspot.com/2011/06/interfaces-in-go.html) for more details.
 
 Edit: As @elimisteve points out in the comments, Go doesn't have classes. Changing `class` to `type` to be more accurate. Thanks!
 
@@ -118,7 +121,7 @@ With Go, you can easily spawn a new lightweight thread by adding `go` to the fro
 
 A channel can both send and receive data. So perhaps your additional threads are doing some work and sending their results into the channel. Your main method could be reading from the channel and reporting progress back to the user. Here's a simple example to see what the syntax looks like.
 
-``` go
+```go
 func sum(a []int, c chan int) {
     sum := 0
     for _, v := range a {
@@ -147,7 +150,7 @@ One important detail: a channel will block while waiting for the other side to s
 
 Another cool technique with channels is using the `range` and `close` language features. In this example, the thread will keep sending until it's done, and then issue a `close` command on the channel. Back in the main method, it will keep receiving until it receives the `close`. This is a really nice, lightweight way to manage communications.
 
-``` go
+```go
 func fibonacci(n int, c chan int) {
     x, y := 0, 1
     for i := 0; i < n; i++ {
@@ -171,4 +174,4 @@ func main() {
 
 I have only briefly described channels and concurrency, but hopefully this is enough to make you curious to learn more. No surprise, but I'm going to again link you to the [Go blog](http://golangtutorials.blogspot.com/2011/06/channels-in-go.html) for more information.
 
-What do you think? Is Go interesting to you? Have you tried it yourself? Share your experiences and opinions in the comments. Also, I will be diving even deeper into Go over the next few weeks and posting more information here. If you're interested, [subscribe to my RSS feed]({{ site.subscribe_rss }}).
+What do you think? Is Go interesting to you? Have you tried it yourself? Share your experiences and opinions in the comments. Also, I will be diving even deeper into Go over the next few weeks and posting more information here. If you're interested, [subscribe to my RSS feed](https://joelclermont.com/index.xml).
