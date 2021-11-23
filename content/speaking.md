@@ -6,9 +6,13 @@ comments: false
 ---
 # Upcoming Events
 
-I'm taking some time off from speaking at conferences. Would you like me to speak at an online event? [Send me a note](/contact).
+I don't have anything scheduled right now. Would you like me to speak at an online event? [Send me a note](/contact).
 
 # Previous Events
+
+### October 2021 - [Longhorn PHP](https://www.longhornphp.com/)
+
+Level Up Your Code Quality [Slides](https://speakerdeck.com/jclermont/level-up-your-code-quality)
 
 ### January 2018 - [Chicago PHP meetup](https://www.meetup.com/Chicago-PHP-User-Group/)
 
