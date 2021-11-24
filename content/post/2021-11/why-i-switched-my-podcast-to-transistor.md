@@ -1,6 +1,6 @@
 ---
 title: "Why I Switched My Podcast to Transistor"
-cover: "/img/opinion.png"
+cover: "/images/opinion.png"
 tags: ["laravel", "podcast"]
 date: 2021-11-23T16:30:30-06:00
 ---
