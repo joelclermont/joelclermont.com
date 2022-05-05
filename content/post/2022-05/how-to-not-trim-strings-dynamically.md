@@ -1,6 +1,6 @@
 ---
 title: "How to Not Trim Strings Dynamically"
-cover: "/images/laravel-tip.jpg"
+cover: "/images/laravel-tip.png"
 tags: ["laravel", "middleware"]
 date: 2022-05-05T17:08:39-05:00
 ---
