@@ -17,7 +17,7 @@ Interestingly, there is one exception out of the box for this middleware: the `p
 
 In my case, I was writing code to handle a webhook sent by Twilio. Part of the webhook payload is a signature verification header. It's important to validate the header against the received message to make sure the message is authentic. In Twilio's docs, they specicially mention that [you should NOT trim strings](https://www.twilio.com/docs/usage/security#notes) for their webhook request payload. If you do, the signature won't validate and the webhook will be rejected. So, how can I turn off the `TrimStrings` middleware for just this one route?
 
-My solution was to use a really helpful extension point on the `TrimStrings` middleware called `skipWhen`. This static method accepts a closure that should return true or false. If it returns false, the `TrimStrings` middleware is skipped for that individual request. Also, the current request is passed into the closure, so you can use that in your logic. In my case, I wanted to just skip it for one particular route, so it was a simple one-liner:
+My solution was to use a really helpful extension point on the `TrimStrings` middleware called `skipWhen`. This static method accepts a closure that should return true or false. If it returns true, the `TrimStrings` middleware is skipped for that individual request. Also, the current request is passed into the closure, so you can use that in your logic. In my case, I wanted to just skip it for one particular route, so it was a simple one-liner:
 
 ```php
 <?php
