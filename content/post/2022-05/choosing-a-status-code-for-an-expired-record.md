@@ -1,8 +1,8 @@
 ---
 title: "Choosing a Status Code for an Expired Record"
 tags: ["laravel", "http", "apis"]
+cover: "/images/opinion.png"
 date: 2022-05-17T09:58:58-05:00
-cover: /images/opinion.png
 ---
 
 In a previous post, I discussed some thoughts around [choosing the right HTTP status code](/post/2020-09/choosing-the-right-http-status-code/). In today's post, I'll tackle a different scenario, and my reasoning behind the particular status code I ended up using.
