@@ -6,9 +6,13 @@ comments: false
 ---
 # Upcoming Events
 
-I don't have anything scheduled right now. Would you like me to speak at an online event? [Send me a note](/contact).
+I don't have anything scheduled right now. Would you like me to speak at an event? [Send me a note](/contact).
 
 # Previous Events
+
+### July 2023 - [Laracon US](https://laracon.us/)
+
+How to Get Unstuck [Video](https://www.youtube.com/watch?v=23McCP-_9BE) [Slides](https://speakerdeck.com/jclermont/how-to-get-unstuck)
 
 ### October 2021 - [Longhorn PHP](https://www.longhornphp.com/)
 
