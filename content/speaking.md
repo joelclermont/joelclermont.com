@@ -6,7 +6,17 @@ comments: false
 ---
 # Upcoming Events
 
-I don't have anything scheduled right now. Would you like me to speak at an event? [Send me a note](/contact).
+### November 2026 - [Laracon AU](https://laracon.au/) (Brisbane)
+
+**Workshop:** [Testing a Laravel App From Scratch](https://laracon.au/workshops) - Wednesday, November 4
+
+A half-day, hands-on workshop. We'll take a Laravel app with no tests and write them together, one route at a time: setting up the test environment, maintainable factories, authentication and authorization, and testing a resourceful controller end to end, including validation and file uploads. No testing experience required. [Tickets](https://buytickets.at/laraconau/1839554)
+
+**Talk:** [Your Tests Pass, But Can You Trust Them?](https://laracon.au/talks/your-tests-pass-but-can-you-trust-them) - Friday, November 6
+
+Code coverage tells you what ran, not whether your tests would catch a bug. This talk explores mutation testing in Laravel as an objective way to measure what a test suite can actually catch, whether those tests were written by you, a teammate, or AI.
+
+Would you like me to speak at your event? [Send me a note](/contact).
 
 # Previous Events
 
