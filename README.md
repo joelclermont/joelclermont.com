@@ -17,6 +17,8 @@ If you have images, put them in `static/images/blog-post-title`.
 
 ## Deploying
 
-`npm run deploy` builds the site and runs `wrangler deploy`.
+Cloudflare Workers Builds deploys on push to master (build command `npm run build`). Other branches get preview URLs.
+
+Hugo is pinned through the `hugo-extended` npm package, so `npm run build` uses the same version locally and in CI. `npm run deploy` builds and deploys from your machine if needed.
 
 Old URL redirects live in `static/_redirects`.

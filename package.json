@@ -6,6 +6,7 @@
     "deploy": "hugo --gc --minify && wrangler deploy"
   },
   "devDependencies": {
+    "hugo-extended": "0.167.0",
     "wrangler": "4.149.0"
   }
 }
