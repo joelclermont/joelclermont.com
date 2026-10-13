@@ -1,0 +1,74 @@
+{{ define "main" }}
+  {{ partial "header.html" . }}
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">{{ .Title }}</h1>
+      <p class="post-meta">{{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</p>
+    </header>
+    <article class="post-content">{{ .Content }}</article>
+    <footer class="post-footer">
+      {{ if isset .Params "tags" }}
+      <ul class="post-tags">
+        {{ range $tag := .Params.tags }}
+          <li><a href="/tags/{{ $tag | urlize }}"><span class="tag">{{ $tag | title }}</span></a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
+      <div style="padding: 1rem; border: 1px solid #0277c0; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+      {{ if in .Params.tags "validation" }}
+        <h3 style="margin-top: 0">Ready to level up your knowledge of Laravel validation?</h3>
+        <p>Learn <span class="yellow-highlight">what</span> to validate, <span class="yellow-highlight">how</span> the rules work internally, and an
+          <span class="yellow-highlight">overall strategy</span> for maintainable, effective
+          validation.
+        </p>
+        <p>
+          <a target="_blank" class="button-link" href="https://masteringlaravel.io/laravel-validation-book?ref=jc">Get started now</a>
+        </p>  
+      {{ else if in .Params.tags "laravel"}}
+        <h3 style="margin-top: 0">Want some quick wins to make your Laravel app better?</h3>
+        <p>Download our <span class="yellow-highlight">free</span> ebook, <a href="https://gum.co/little-laravel" target="_blank">"A Little Bit of Laravel"</a>
+          containing short, bite-sized tips you can put into practice right away.
+        </p>
+        <script src="https://gumroad.com/js/gumroad.js"></script>
+        <p>
+          <a class="button-link" href="https://gum.co/little-laravel?wanted=true">Get your free copy</a>
+        </p>    
+      {{ else }}
+        <h3 style="margin-top: 0">Sign me up for the good stuff!</h3>
+        <p>
+          Want to be the first to know when I publish new articles, tools, books, and courses? Add your email below.
+        </p>
+        <p>
+          <style> .gumroad-follow-form-embed { zoom: 1; } .gumroad-follow-form-embed:before, .gumroad-follow-form-embed:after { display: table; line-height: 0; content: ""; } .gumroad-follow-form-embed:after { clear: both; } .gumroad-follow-form-embed * { margin: 0; border: 0; padding: 0; outline: 0; box-sizing: border-box !important; float: left !important; } .gumroad-follow-form-embed input { border-radius: 4px; border-top-right-radius: 0; border-bottom-right-radius: 0; font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 15px; line-height: 20px; background: #fff; border: 1px solid #ddd; border-right: 0; color: #aaa; padding: 10px; box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.02); background-position: top right; background-repeat: no-repeat; text-rendering: optimizeLegibility; font-smoothing: antialiased; -webkit-appearance: none; -moz-appearance: caret; width: 65% !important; height: 40px !important; } .gumroad-follow-form-embed button { border-radius: 4px; border-top-left-radius: 0; border-bottom-left-radius: 0; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12); -webkit-transition: all .05s ease-in-out; transition: all .05s ease-in-out; display: inline-block; padding: 11px 15px 12px; cursor: pointer; color: #fff; font-size: 15px; line-height: 100%; font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif; background: #1a7cbe; border: 1px solid #1770ab; filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#40a2e4, endColorstr=#1873b0, GradientType=0)"; background: -webkit-linear-gradient(#40a2e4, #1873b0); background: linear-gradient(to bottom, #40a2e4, #1873b0); height: 40px !important; width: 35% !important; } </style> <form action="https://gumroad.com/follow_from_embed_form" class="form gumroad-follow-form-embed" method="post"> <input name="seller_id" type="hidden" value="8910930605039"> <input name="email" placeholder="Your email address" type="email"> <button data-custom-highlight-color="" type="submit">Sign up</button> </form>
+        </p>
+      {{ end }}
+      </div>
+      <p class="post-content" style="background-color: #f4f3f1; border-left: 5px solid #5fbf5e; padding: 0.5rem 1rem; margin-bottom: 0;">
+        If you enjoyed this post or want to share your feedback, follow me on Twitter: <a href="https://twitter.com/jclermont" target="_blank">@jclermont</a>.
+      </p>
+      <p class="post-content" style="margin-top: 0.5rem; margin-bottom: 0">
+        This site minds its manners and <a href="/post/2020-09/why-i-switched-to-fathom-analytics">doesn't track you at all</a>.
+      </p>
+      <p class="post-copyright" style="margin-top: 0.5rem;">
+        {{ if .Site.Copyright }}{{ .Site.Copyright }}{{ end }}{{ if gt (div (sub now.Unix .Lastmod.Unix) 86400) 100 }}This post was published <strong>{{ div (sub now.Unix .Lastmod.Unix) 86400 }}</strong> days ago, content in the post may be inaccurate, even wrong now, please take risk yourself.{{ end }}
+      </p>
+    </footer>
+    {{ if ne .Params.comments false }}
+      {{ if .Site.Params.changyan }}
+      <div id="cyReward" role="cylabs" data-use="reward"></div>
+      <script src="//changyan.itc.cn/js/lib/jquery.js"></script>
+      <script src="//changyan.sohu.com/js/changyan.labs.https.js?appid={{ .Site.Params.changyanId }}"></script>
+      <div id="SOHUCS" sid="{{ .URL }}" ></div>
+      <script>
+      (function(){
+      var appid = '{{ .Site.Params.changyanId }}';
+      var conf = '{{ .Site.Params.changyanConf }}';
+      var width = window.innerWidth || document.documentElement.clientWidth;
+      if (width < 960) {
+      window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
+      {{ else if .Site.DisqusShortname }}{{ template "_internal/disqus.html" . }}
+      {{ else }}{{ end }}
+    {{ end }}
+  </section>
+  {{ partial "footer.html" . }}
+{{ end }}

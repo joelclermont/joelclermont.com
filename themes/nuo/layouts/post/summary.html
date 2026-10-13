@@ -1,0 +1,10 @@
+<article class="post-entry">
+  <header class="post-header">
+    <h3 class="post-title"><a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a></h3>
+    <p class="post-meta">{{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</p>
+  </header>
+  <p class="post-summary">{{ .Summary | plainify | htmlUnescape }}</p>
+  <footer class="post-footer">
+    <a class="read-more" href="{{ .Permalink }}">Read More →</a>
+  </footer>
+</article>
