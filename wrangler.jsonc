@@ -11,12 +11,12 @@
   },
   "vars": {
     "CONTACT_FROM": "contact@joelclermont.com",
-    "CONTACT_TO": "REPLACE_WITH_VERIFIED_ADDRESS"
+    "CONTACT_TO": "me@jclermont.com"
   },
   "send_email": [
     {
       "name": "CONTACT_EMAIL",
-      "destination_address": "REPLACE_WITH_VERIFIED_ADDRESS"
+      "destination_address": "me@jclermont.com"
     }
   ]
 }
