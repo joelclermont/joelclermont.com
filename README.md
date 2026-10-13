@@ -1,13 +1,10 @@
 # Blog instructions
 
-Note: Currently tested with [Hugo 0.55.6](https://github.com/gohugoio/hugo/releases/tag/v0.55.6)
+Built with [Hugo](https://gohugo.io) (extended, current release) and hosted on Cloudflare Workers with static assets. The theme lives in `themes/nuo` as plain files (it was previously a submodule).
 
-First, make sure to clone the repo with submodules. The theme is currently tracked this way. If you don't clone it, you won't be able to build.
+`hugo server` from the repo root builds and serves on http://localhost:1313
 
-- `git submodule init`
-- `git submodule update`
-
-`hugo server` from the repo root should build and server on http://localhost:1313
+To test the contact form Worker locally, run `npm install` once, then `npm run dev` (serves on http://localhost:8787). The development config and `.dev.vars` use Cloudflare's always-pass Turnstile test keys.
 
 ## Writing a new post
 
@@ -18,4 +15,8 @@ First, make sure to clone the repo with submodules. The theme is currently track
 
 If you have images, put them in `static/images/blog-post-title`.
 
-Netlify deploys on push to master, so you won't need S3 setup or the `publish.sh` deploy script.
+## Deploying
+
+`npm run deploy` builds the site and runs `wrangler deploy`.
+
+Old URL redirects live in `static/_redirects`.

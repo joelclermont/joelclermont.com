@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "hugo --gc --minify",
+    "dev": "hugo && wrangler dev",
+    "deploy": "hugo --gc --minify && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.149.0"
+  }
+}

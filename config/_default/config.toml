@@ -1,9 +1,8 @@
 baseURL = "https://joelclermont.com"
-languageCode = "en-US"
+locale = "en-US"
 title = "Joel Clermont"
 theme = "nuo"
 enableRobotsTXT = true
-PygmentsCodeFences = true
 canonifyurls = false
 
 # Disqus Username
@@ -15,8 +14,11 @@ canonifyurls = false
 # Copyright of your post
 copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 
-[blackfriday]
-hrefTargetBlank = true
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = true
 
 # Initial site menu, you can extend menu with content.
 [[menu.main]]
@@ -63,6 +65,7 @@ hrefTargetBlank = true
   subtitle = ""
   description = "The personal site of Joel Clermont"
   paginate = 10
+  turnstileSiteKey = "REPLACE_WITH_TURNSTILE_SITE_KEY"
 
   # Choose your social networks
   # email = ""

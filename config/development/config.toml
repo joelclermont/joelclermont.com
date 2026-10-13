@@ -1,1 +1,4 @@
 baseURL = "http://localhost:1313"
+[params]
+  # Cloudflare's always-pass Turnstile test key
+  turnstileSiteKey = "1x00000000000000000000AA"

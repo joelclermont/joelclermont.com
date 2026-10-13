@@ -1,0 +1,22 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "joelclermont-com",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "vars": {
+    "CONTACT_FROM": "contact@joelclermont.com",
+    "CONTACT_TO": "REPLACE_WITH_VERIFIED_ADDRESS"
+  },
+  "send_email": [
+    {
+      "name": "CONTACT_EMAIL",
+      "destination_address": "REPLACE_WITH_VERIFIED_ADDRESS"
+    }
+  ]
+}

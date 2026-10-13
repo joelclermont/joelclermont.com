@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ .Site.Language.Locale }}">
 <head>
 
   <meta charset="utf-8" />
@@ -25,7 +25,7 @@
       {{ if and (eq .Type "post") (eq .Kind "page") }}
         {{ if .Site.Params.changyan }}
         <a title="Go to comments" class="to-comment" href="#SOHUCS"><span class="icon icon-comment"></span></a>
-        {{ else if .Site.DisqusShortname }}
+        {{ else if .Site.Config.Services.Disqus.Shortname }}
         <a title="Go to comments" class="to-comment" href="#disqus_thread"><span class="icon icon-comment"></span></a>
         {{ else }}{{ end }}
       {{ end }}

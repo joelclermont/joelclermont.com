@@ -1,0 +1,15 @@
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<form name="contact" method="POST" action="/api/contact">
+  <p>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" maxlength="5000" required style="display:block; width:80%"></textarea>
+  </p>
+  <p>
+    <label for="email">Email</label>
+    <input id="email" type="email" name="email" maxlength="254" required style="display:block; width:80%"/>
+  </p>
+  <div class="cf-turnstile" data-sitekey="{{ site.Params.turnstileSiteKey }}"></div>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>

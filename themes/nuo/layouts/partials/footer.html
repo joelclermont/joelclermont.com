@@ -8,8 +8,8 @@
 
 <!-- Scripts -->
 <script src="{{ "/js/bundle.js" | relURL }}"></script>
-{{ if .Site.GoogleAnalytics }}
-{{ template "_internal/google_analytics_async.html" . }}
+{{ if .Site.Config.Services.GoogleAnalytics.ID }}
+{{ template "_internal/google_analytics.html" . }}
 {{ end }}
 {{ if isset .Site.Params "baidutongji" }}
 <script>
