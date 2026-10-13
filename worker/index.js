@@ -1,18 +1,18 @@
 import { EmailMessage } from 'cloudflare:email';
 
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
 
     if (url.pathname === '/api/contact' && request.method === 'POST') {
-      return handleContact(request, env);
+      return handleContact(request, env, ctx);
     }
 
     return env.ASSETS.fetch(request);
   },
 };
 
-async function handleContact(request, env) {
+async function handleContact(request, env, ctx) {
   const form = await request.formData();
 
   const human = await verifyTurnstile(
@@ -36,7 +36,14 @@ async function handleContact(request, env) {
     subject: 'joelclermont.com contact form',
     text: `From: ${submission.email}\n\n${submission.message}`,
   });
-  await env.CONTACT_EMAIL.send(new EmailMessage(env.CONTACT_FROM, env.CONTACT_TO, raw));
+
+  // Sending takes several seconds, so don't make the visitor wait on it.
+  // A failed send is logged with the submission so the message can still be recovered.
+  ctx.waitUntil(
+    env.CONTACT_EMAIL.send(new EmailMessage(env.CONTACT_FROM, env.CONTACT_TO, raw)).catch((error) => {
+      console.error('Contact form email failed', { error: String(error), submission });
+    }),
+  );
 
   return Response.redirect(new URL('/contact-success/', request.url), 303);
 }
