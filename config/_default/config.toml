@@ -65,7 +65,7 @@ noClasses = true
   subtitle = ""
   description = "The personal site of Joel Clermont"
   paginate = 10
-  turnstileSiteKey = "REPLACE_WITH_TURNSTILE_SITE_KEY"
+  turnstileSiteKey = "0x4AAAAAAFVJgYTwow5SpJsx"
 
   # Choose your social networks
   # email = ""
