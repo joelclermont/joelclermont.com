@@ -11,7 +11,7 @@ Laravel automatically trims incoming strings in the HTTP request. This convenien
 
 First, just to be clear, when I say trimming a string, I mean that all leading and trailing whitespace is removed. So if someone types an extra space after their email address in a form, Laravel will trim that value in the request, so that `$request->safe->only(['email'])` will be what they typed minus the trailing space, which is what the person intended. It keeps your data tidy, and it does so with no extra developer effort required. The `TrimStrings` middleware is in the default set of global middleware when you set up a new Laravel project.
 
-> The `TrimStrings` behavior isn't tied to request validation. It works fine on `$request->get('email')`, but you always [validate user input](https://masteringlaravel.io/laravel-validation-book?ref=jc), right?
+> The `TrimStrings` behavior isn't tied to request validation. It works fine on `$request->get('email')`, but you always [validate user input](https://masteringlaravel.io/books/validation?ref=jc), right?
 
 Interestingly, there is one exception out of the box for this middleware: the `password` and `password_confirmation` fields. In any request, if someone types leading or trailing spaces into a field named `password`, the `TrimStrings` middleware will leave it untrimmed. This makes sense because it's possible someone could want a leading or trailing space in their password. This exception is set in a protected array named `$except` in the `App\Http\Middleware\TrimStrings` class.
 
